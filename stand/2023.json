@@ -456,54 +456,6 @@
       "isMatch": true,
       "verkauft": false,
       "episode": "11"
-    },
-    {
-      "id": "mb12n23",
-      "aId": "7ll3nh4q",
-      "bId": "sykeoa29",
-      "isMatch": true,
-      "verkauft": false,
-      "episode": "final"
-    },
-    {
-      "id": "mb13n23",
-      "aId": "zldpjwap",
-      "bId": "ktv59to1",
-      "isMatch": true,
-      "verkauft": false,
-      "episode": "final"
-    },
-    {
-      "id": "mb14n23",
-      "aId": "6ivirl41",
-      "bId": "svchdt51",
-      "isMatch": true,
-      "verkauft": false,
-      "episode": "final"
-    },
-    {
-      "id": "mb15n23",
-      "aId": "lqelmein",
-      "bId": "lqt4239m",
-      "isMatch": true,
-      "verkauft": false,
-      "episode": "final"
-    },
-    {
-      "id": "mb16n23",
-      "aId": "whbuzjty",
-      "bId": "3hp3xx3y",
-      "isMatch": true,
-      "verkauft": false,
-      "episode": "final"
-    },
-    {
-      "id": "mb17n23",
-      "aId": "f1b4k7co",
-      "bId": "7tlbkpz9",
-      "isMatch": true,
-      "verkauft": false,
-      "episode": "final"
     }
   ],
   "doubleMatchIds": [],
@@ -516,5 +468,5 @@
     "episode": "",
     "editingId": null
   },
-  "_pushedAt": "2026-08-25T16:15:35Z"
+  "_pushedAt": "2026-08-25T16:16:41Z"
 }

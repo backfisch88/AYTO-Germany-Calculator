@@ -4,6 +4,17 @@
   "seasonInfo": {
     "staffel": "2023 (VIP)"
   },
+  "bench": [
+    {
+      "id": "rfzodtzv",
+      "name": "Peter",
+      "photo": "cast/2023-vip/peter.webp",
+      "notiz": "25, Schweiz, Handballtorwart, bekannt aus: Germany Shore (2023), Bachelorette Schweiz (2022), Take me out (2017)",
+      "zitat": "Freundschaften mit Frauen finde ich eher schwierig.",
+      "instagram": "https://www.instagram.com/p.kujan/",
+      "_originGroup": "groupA"
+    }
+  ],
   "groupA": [
     {
       "id": "qppvhs5n",
@@ -166,26 +177,6 @@
       "notiz": "25, Kaiserslautern, Sport- und Fitnesskauffrau, bekannt aus: Bachelor (2022), Bachelor in Paradise (2022)",
       "zitat": "Mein Partner muss das Geld nach Hause bringen.",
       "instagram": "https://www.instagram.com/christinashakira/"
-    }
-  ],
-  "nightDraft": null,
-  "mbDraft": {
-    "aId": "",
-    "bId": "",
-    "isMatch": true,
-    "verkauft": false,
-    "episode": "",
-    "editingId": null
-  },
-  "bench": [
-    {
-      "id": "rfzodtzv",
-      "name": "Peter",
-      "photo": "cast/2023-vip/peter.webp",
-      "notiz": "25, Schweiz, Handballtorwart, bekannt aus: Germany Shore (2023), Bachelorette Schweiz (2022), Take me out (2017)",
-      "zitat": "Freundschaften mit Frauen finde ich eher schwierig.",
-      "instagram": "https://www.instagram.com/p.kujan/",
-      "_originGroup": "groupA"
     }
   ],
   "nights": [
@@ -471,32 +462,17 @@
       "isMatch": true,
       "verkauft": false,
       "episode": "10"
-    },
-    {
-      "id": "mb13vip23",
-      "aId": "j4kw6rk5",
-      "bId": "24sl14wl",
-      "isMatch": true,
-      "verkauft": false,
-      "episode": "10"
-    },
-    {
-      "id": "mb14vip23",
-      "aId": "bsj2i7to",
-      "bId": "nx6ppzm6",
-      "isMatch": true,
-      "verkauft": false,
-      "episode": "10"
-    },
-    {
-      "id": "mb15vip23",
-      "aId": "zrb3wnhk",
-      "bId": "ua7zzv6u",
-      "isMatch": true,
-      "verkauft": false,
-      "episode": "10"
     }
   ],
   "doubleMatchIds": [],
-  "_pushedAt": "2026-08-25T16:15:01Z"
+  "nightDraft": null,
+  "mbDraft": {
+    "aId": "",
+    "bId": "",
+    "isMatch": true,
+    "verkauft": false,
+    "episode": "",
+    "editingId": null
+  },
+  "_pushedAt": "2026-08-25T16:17:04Z"
 }
