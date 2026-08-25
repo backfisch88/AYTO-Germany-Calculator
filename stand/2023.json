@@ -9,7 +9,7 @@
       "id": "jxp3cp1h",
       "name": "Pia",
       "photo": "cast/2023/pia.webp",
-      "notiz": "24, Magdeburg, Bankkauffrau. War Teil von Gerrits Triple-Match - musste nach der Matchbox-Enttarnung (Gerrit+Tais) die Villa verlassen.",
+      "notiz": "24, Magdeburg, Bankkauffrau",
       "zitat": "Ich will mich gerne durchtesten bei den Jungs."
     },
     {
@@ -89,7 +89,7 @@
       "id": "k2qyjn8z",
       "name": "Gerrit",
       "photo": "cast/2023/gerrit.webp",
-      "notiz": "24, Köln, Student. Hatte ein Triple-Match: Perfect Match mit Tais, Melanie UND Pia gleichzeitig - Tais war das aktive Match, Melanie und Pia mussten die Villa verlassen.",
+      "notiz": "24, Köln, Student",
       "zitat": "Um den ersten Schritt bei einer Frau zu machen, muss ich mich echt überwinden.",
       "instagram": "https://www.instagram.com/gerrit_kleinz/"
     },
@@ -100,6 +100,14 @@
       "notiz": "22, Duisburg, Student",
       "zitat": "Ich hasse Arroganz und wenn Frauen denken, sie könnten jeden haben, nur weil sie gut aussehen.",
       "instagram": "https://www.instagram.com/et1nosa/"
+    },
+    {
+      "id": "0qxnx1vp",
+      "name": "Paul",
+      "photo": "cast/2023/paul.webp",
+      "notiz": "22, Wuppertal, angehender Immobilienmakle",
+      "zitat": "Ich bin manchmal zu temperamentvoll und provokant.",
+      "instagram": "https://www.instagram.com/_paulo288_/"
     }
   ],
   "groupB": [
@@ -182,6 +190,14 @@
       "notiz": "22, Berlin, Personal Trainer",
       "zitat": "Ich komme in den Raum und dann sind 'All eyes on me'.",
       "instagram": "https://www.instagram.com/edda.elisa/"
+    },
+    {
+      "id": "i22o4c5d",
+      "name": "Mela",
+      "photo": "cast/2023/mela.webp",
+      "notiz": "23, Zürich, Krankenschwester",
+      "zitat": "Ich gehöre einfach ins Fernsehen. So jemanden wie mich gab es im TV noch nie.",
+      "instagram": ""
     }
   ],
   "nights": [
@@ -454,6 +470,78 @@
       "isMatch": true,
       "verkauft": false,
       "episode": "11"
+    },
+    {
+      "id": "7l1rrh50",
+      "aId": "f1b4k7co",
+      "bId": "7tlbkpz9",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": ""
+    },
+    {
+      "id": "vh1u16wb",
+      "aId": "zldpjwap",
+      "bId": "ktv59to1",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": ""
+    },
+    {
+      "id": "2qsxdp9t",
+      "aId": "7ll3nh4q",
+      "bId": "sykeoa29",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": ""
+    },
+    {
+      "id": "tf6afyyu",
+      "aId": "whbuzjty",
+      "bId": "3hp3xx3y",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": ""
+    },
+    {
+      "id": "0c2vvz49",
+      "aId": "lqelmein",
+      "bId": "lqt4239m",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": ""
+    },
+    {
+      "id": "0uid21em",
+      "aId": "0qxnx1vp",
+      "bId": "svchdt51",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": ""
+    },
+    {
+      "id": "se37m05n",
+      "aId": "0qxnx1vp",
+      "bId": "lqt4239m",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "1"
+    },
+    {
+      "id": "cfdd1e32",
+      "aId": "0qxnx1vp",
+      "bId": "3hp3xx3y",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "8"
+    },
+    {
+      "id": "csfxk408",
+      "aId": "1fxh0obj",
+      "bId": "i22o4c5d",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "4"
     }
   ],
   "doubleMatchIds": [],
@@ -466,5 +554,5 @@
     "episode": "4",
     "editingId": "mb4n23"
   },
-  "_pushedAt": "2026-08-25T07:01:26Z"
+  "_pushedAt": "2026-08-25T07:05:19Z"
 }
