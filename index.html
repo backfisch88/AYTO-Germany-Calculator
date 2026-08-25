@@ -13,7 +13,7 @@
 <meta name="apple-mobile-web-app-title" content="AYTO-Germany-Calculator">
 <script>
   (function () {
-    var CURRENT_BUILD = "2026-08-23-v5-12-people-limit";
+    var CURRENT_BUILD = "2026-08-25-v7-unique-since-night";
     var checking = false;
     function checkForUpdate() {
       if (checking) return;
@@ -433,6 +433,36 @@ function App() {
     return () => clearTimeout(t);
   }, [state]);
 
+  // Sobald die aktuelle Lösung eindeutig ist (solutionCount === 1), rechnet dieser
+  // Effekt rückwirkend durch, ab welcher Nacht (kumulativ, mit allen Matchbox-
+  // Ergebnissen) die Lösung schon eindeutig bestimmbar gewesen wäre. Läuft
+  // asynchron/deferred, damit mehrere Solve-Durchläufe hintereinander nicht die
+  // Bedienung blockieren.
+  const [uniqueSinceNight, setUniqueSinceNight] = useState(null);
+  const [uniqueSinceComputing, setUniqueSinceComputing] = useState(false);
+  useEffect(() => {
+    if (!state || !result || result.solutionCount !== 1) {
+      setUniqueSinceNight(null);
+      return;
+    }
+    setUniqueSinceComputing(true);
+    const timer = setTimeout(() => {
+      const orderedNights = [...state.nights].sort((a, b) => (a.remoteNummer ?? 0) - (b.remoteNummer ?? 0));
+      let foundLabel = null;
+      for (let i = 0; i < orderedNights.length; i++) {
+        const partialState = { ...state, nights: orderedNights.slice(0, i + 1) };
+        const r = solve(partialState);
+        if (r && !r.error && r.solutionCount === 1) {
+          foundLabel = orderedNights[i].label || `Nacht ${i + 1}`;
+          break;
+        }
+      }
+      setUniqueSinceNight(foundLabel);
+      setUniqueSinceComputing(false);
+    }, 50);
+    return () => clearTimeout(timer);
+  }, [result]);
+
   const nA = state ? state.groupA.length : 0;
   const nB = state ? state.groupB.length : 0;
   const ready = nA > 0 && nB > 0;
@@ -670,7 +700,14 @@ function App() {
                   ),
                   isOpen && h("div", { className: "fade-in", style: { padding: "0 16px 12px", display: "flex", flexDirection: "column", gap: 4 } },
                     smallArr.map(s => {
-                      const partnerIds = [night.pairs[s.id], night.extraPartner && night.extraPartner.smallId === s.id ? night.extraPartner.bigId : null].filter(Boolean);
+                      // Sucht in beide Richtungen: manuell angelegte Abende (klein->groß
+                      // gespeichert) genauso wie synchronisierte (immer Mann->Frau
+                      // gespeichert, unabhängig davon welche Gruppe gerade kleiner ist).
+                      // Nur in eine Richtung zu suchen zeigte bei manchen Staffeln
+                      // fälschlich "—" für alle an.
+                      const directPartner = night.pairs[s.id];
+                      const reversePartner = directPartner ? null : Object.entries(night.pairs).find(([k, v]) => v === s.id)?.[0];
+                      const partnerIds = [directPartner || reversePartner, night.extraPartner && night.extraPartner.smallId === s.id ? night.extraPartner.bigId : null].filter(Boolean);
                       const names = partnerIds.map(pid => (bigArr.find(x => x.id === pid) || {}).name).filter(Boolean);
                       return h("div", { key: s.id, style: { fontSize: 12, display: "flex", alignItems: "center", gap: 8, color: "#726B85" } },
                         h("span", null, s.name), h("span", { style: { color: "#948C9E" } }, "+"), h("span", null, names.length ? names.join(" & ") : "—")
@@ -725,7 +762,9 @@ function App() {
             h("span", { className: "mono-font", style: { color: "#F2B705" } }, result.solutionCount.toLocaleString("de-DE")),
             " mögliche Kombination", result.solutionCount === 1 ? "" : "en", " erfüllen alle eingetragenen Nächte & Matchbox-Ergebnisse.",
             result.doubleMatchActive && h("span", { style: { color: "#E0227A" } }, " Doppel-Match-Twist aktiv für ", (state.doubleMatchIds || []).map(id => nameOf(id)).join(", "), "."),
-            result.solutionCount === 1 && h("span", { style: { color: "#E0227A" } }, " Eindeutige Lösung gefunden!")
+            result.solutionCount === 1 && h("span", { style: { color: "#E0227A" } }, " Eindeutige Lösung gefunden!"),
+            result.solutionCount === 1 && uniqueSinceNight && h("span", { className: "block", style: { marginTop: 4, color: "#3F9142", fontWeight: 500 } }, "✓ Rechnerisch bereits eindeutig seit ", uniqueSinceNight, "."),
+            result.solutionCount === 1 && uniqueSinceComputing && !uniqueSinceNight && h("span", { className: "block", style: { marginTop: 4, color: "#948C9E" } }, "Prüfe, seit welcher Nacht die Lösung eindeutig war …")
           ),
           h("div", { style: { overflowX: "auto", overflowY: "auto", maxHeight: "60vh", borderRadius: 12, border: "1px solid #E7E1F0" } },
             h("table", { style: { width: "100%", fontSize: 13, borderCollapse: "collapse" } },
