@@ -115,7 +115,7 @@
       "id": "m8lj5tuu",
       "name": "Paulia",
       "photo": "cast/2023-vip/paulia.webp",
-      "notiz": "21, Köln, Influencer, bekannt aus: Ex on the Beach (2022)",
+      "notiz": "21, Köln, Influencer, bekannt aus: Ex on the Beach (2022), Alternativ-Match-Hinweis: 17",
       "zitat": "Wenn ich sage, ich mag keinen Streit, würde ich lügen.",
       "instagram": "https://www.instagram.com/paulinapilch/"
     },
@@ -182,7 +182,7 @@
       "id": "rfzodtzv",
       "name": "Peter",
       "photo": "cast/2023-vip/peter.webp",
-      "notiz": "25, Schweiz, Handballtorwart, bekannt aus: Germany Shore (2023), Bachelorette Schweiz (2022), Take me out (2017). Hatte ebenfalls ein Perfect Match mit Paulia - musste die Villa nach der Sonderentscheidung in Runde 7 verlassen (Max entschied sich, die Matchbox-Entscheidung zu verkaufen).",
+      "notiz": "25, Schweiz, Handballtorwart, bekannt aus: Germany Shore (2023), Bachelorette Schweiz (2022), Take me out (2017)",
       "zitat": "Freundschaften mit Frauen finde ich eher schwierig.",
       "instagram": "https://www.instagram.com/p.kujan/",
       "_originGroup": "groupA"
@@ -498,5 +498,5 @@
     }
   ],
   "doubleMatchIds": [],
-  "_pushedAt": "2026-08-25T16:12:59Z"
+  "_pushedAt": "2026-08-25T16:15:01Z"
 }
