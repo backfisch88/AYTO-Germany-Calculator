@@ -1,0 +1,440 @@
+{
+  "groupAName": "Männer",
+  "groupBName": "Frauen",
+  "seasonInfo": {
+    "staffel": "2026 (VIP)"
+  },
+  "bench": [],
+  "groupA": [
+    {
+      "id": "8r36m3lm",
+      "name": "Lars",
+      "photo": "cast/2024-vip/lars.webp",
+      "notiz": "27, Stuttgart, Industriemechaniker, bekannt aus: Ex on the Beach (2022), Die Bachelorette (2021)",
+      "zitat": "Ich liebe Sex, ich hatte im Fernsehen bereits Sex und ich werde wieder Sex haben. Auch, wenn meine Oma mich enterbt.",
+      "instagram": "https://www.instagram.com/lars_maucher/"
+    },
+    {
+      "id": "ynunfqz9",
+      "name": "Tim",
+      "photo": "cast/2024-vip/tim.webp",
+      "notiz": "27, Stuttgart, Personaltrainer, bekannt aus: Prominent getrennt (2024), Kampf der Realitystars (2020), Love Island (2020), Alternativ-Match-Hinweis: 92",
+      "zitat": "Meine Mama hat mir das Go für den Boom Boom Room gegeben.",
+      "instagram": "https://www.instagram.com/timkuehnel/"
+    },
+    {
+      "id": "oo673nm2",
+      "name": "Ozan",
+      "photo": "cast/2024-vip/ozan.webp",
+      "notiz": "28, Hamburg, Social Media Manager, bekannt aus: Bachelor in Paradise (2023), Die Bachelorette (2023)",
+      "zitat": "Alle Frauen sehen in mir nur eine Red Flag.",
+      "instagram": "https://www.instagram.com/ozan_gncl/"
+    },
+    {
+      "id": "z4t4bu65",
+      "name": "Nikola",
+      "photo": "cast/2024-vip/nikola.webp",
+      "notiz": "28, München, Influencer & Model, bekannt aus: Prominent getrennt (2023), Temptation Island (2022)",
+      "zitat": "Meine letzte Beziehung war zwei Jahre ok, zwei Jahre toxisch.",
+      "instagram": "https://www.instagram.com/nikola_glumac/"
+    },
+    {
+      "id": "l9ofa6pe",
+      "name": "Marc-Robin",
+      "photo": "cast/2024-vip/marc-robin.webp",
+      "notiz": "29, Karlsruhe, Realitystar, bekannt aus: Prominent getrennt (2023), Temptation Island (2022)",
+      "zitat": "Wenn meine Frau fremdgehen würde, wäre das der Horror.",
+      "instagram": "https://www.instagram.com/marc.robiin/"
+    },
+    {
+      "id": "rgwpj0az",
+      "name": "Lukas",
+      "photo": "cast/2024-vip/lukas.webp",
+      "notiz": "30, Hamburg, Fitness- & Onlinecoach, bekannt aus: Prominent getrennt (2024), Kampf der Realitystars (2023), Die Bachelorette (2022)",
+      "zitat": "Ich vertraue darauf, dass alles, was passiert, zu meinem Besten geschieht.",
+      "instagram": "https://www.instagram.com/lukascharles_/"
+    },
+    {
+      "id": "1ot9fi77",
+      "name": "Alex",
+      "photo": "cast/2024-vip/alex.webp",
+      "notiz": "28, Mannheim, Koch, bekannt aus: Die Bachelorette (2023), Rate my Date (2022), First Dates (2021)",
+      "zitat": "Es geht mir nicht darum, die Frau direkt ins Bett zu kriegen, ich will sie kennenlernen.",
+      "instagram": "https://www.instagram.com/alexander_runow/"
+    },
+    {
+      "id": "58yt46h9",
+      "name": "Kaan",
+      "photo": "cast/2024-vip/kaan.webp",
+      "notiz": "27, Duisburg, Fuhrparkmanager & Influencer, bekannt aus: Bachelor in Paradise (2023), Die Bachelorette (2023)",
+      "zitat": "Ich habe nicht mehr so viele Affären gleichzeitig. Früher waren es so sechs bis sieben.”",
+      "instagram": "https://www.instagram.com/kaanaktas61_/"
+    },
+    {
+      "id": "jrbe41mf",
+      "name": "Chris",
+      "photo": "cast/2024-vip/chris.webp",
+      "notiz": "35, Köln, Selbständig, bekannt aus: The 50 (2024), B:Real (2024), The Real Life (2023) u.a.",
+      "zitat": "Ich habe eher weniger One Night Stands.",
+      "instagram": "https://www.instagram.com/chris_broy/"
+    },
+    {
+      "id": "qugo6i73",
+      "name": "Antonino",
+      "photo": "cast/2024-vip/antonino.webp",
+      "notiz": "27, Frankfurt, Fitnesstrainer, bekannt aus: Temptation Island (2023), Are you the One? (2021)",
+      "zitat": "Wenn ich bei AYTO die Richtige kennenlerne, habe ich schon Bock auf Sex in der Villa.",
+      "instagram": "https://www.instagram.com/antonino.de.niro/"
+    }
+  ],
+  "groupB": [
+    {
+      "id": "copxgd6e",
+      "name": "Tara",
+      "photo": "cast/2024-vip/tara.webp",
+      "notiz": "31, Wien / London, Realitystar, bekannt aus: Reality Backpackers (2024), Skate Fever - Stars auf Rollschuhen (2022), Forsthaus Rampensau Österreich (2022) u.a.",
+      "zitat": "Bei AYTO geht es ja wirklich ums Perfect Match und nicht um den Perfect Bumspartner!",
+      "instagram": "https://www.instagram.com/taratabitha/"
+    },
+    {
+      "id": "ftbhvp55",
+      "name": "Nadja",
+      "photo": "cast/2024-vip/nadja.webp",
+      "notiz": "25, München, Kauffrau für Büromanagement, bekannt aus: Love Fool (2023)",
+      "zitat": "Ich gehe auf keinen Mann zu, die kommen von selbst.",
+      "instagram": "https://www.instagram.com/nadja__1406/"
+    },
+    {
+      "id": "a94e3s0h",
+      "name": "Linda",
+      "photo": "cast/2024-vip/linda.webp",
+      "notiz": "23, München, Zahnmedizinische Fachangestellte, bekannt aus: Germanys Next Topmodel (2021)",
+      "zitat": "Ich würde mich als ein bisschen zickig, aber liebevoll beschreiben.",
+      "instagram": "https://www.instagram.com/linda.voilet/"
+    },
+    {
+      "id": "kxasih6u",
+      "name": "Laura M.",
+      "photo": "cast/2024-vip/laura-m.webp",
+      "notiz": "33, Essen, Selbständige Friseurin, bekannt aus: Kampf der Realitystars (2021), Are you the One? (2020), Wanna be Princess (2020) u.a.",
+      "zitat": "Ich bin kein Wifey-Material, ich habe keine Zeit für Hausfrauenzeugs wie Putzen.",
+      "instagram": "https://www.instagram.com/lauramorante___/"
+    },
+    {
+      "id": "rj7jdsgt",
+      "name": "Laura L.",
+      "photo": "cast/2024-vip/laura-l.webp",
+      "notiz": "28, München, Content Creatorin, bekannt aus: Couple Challenge Winter (2022), Are you the One? (2021), Love Island (2019)",
+      "zitat": "Ich würde behaupten, ich kann Red Flags innerhalb von 500 Metern erkennen.",
+      "instagram": "https://www.instagram.com/laurablondd/"
+    },
+    {
+      "id": "q6efefs2",
+      "name": "Jennifer",
+      "photo": "cast/2024-vip/jennifer.webp",
+      "notiz": "25, Düsseldorf, Influencerin, bekannt aus: The Real Life  (2023), Promi Big Brother (2022), Love Island (2022)",
+      "zitat": "Ich hatte drei Beziehungen und alle waren toxisch.",
+      "instagram": "https://www.instagram.com/jennifer1glesias/"
+    },
+    {
+      "id": "pp8jvrkk",
+      "name": "Gabriela",
+      "photo": "cast/2024-vip/gabriela.webp",
+      "notiz": "24, Heilbronn, Selbständig, bekannt aus: Ex on the Beach (2023)",
+      "zitat": "Ich bin schon eifersüchtig, mittlerweile aber gesünder. Wenn jemand meine Grenzen überschreitet, kommt der Teufel raus.”",
+      "instagram": "https://www.instagram.com/gabriela_alves_rodrigues.k/"
+    },
+    {
+      "id": "l2cdx0w7",
+      "name": "Emmy",
+      "photo": "cast/2024-vip/emmy.webp",
+      "notiz": "25, Madrid, Realitystar, bekannt aus: Reality Queens (2024), Das große Promi-Büßen (2023), Kampf der Realitystars (2023) u.a.",
+      "zitat": "Mein Geld ist mein Geld und dein Geld ist mein Geld.",
+      "instagram": "https://www.instagram.com/emmyruss/"
+    },
+    {
+      "id": "ty8lkv7b",
+      "name": "Dana",
+      "photo": "cast/2024-vip/dana.webp",
+      "notiz": "28, Oldenburg, Influenerin, bekannt aus: Sommerhaus der Stars (2023), Are you the one? (2022), Love Island (2019), Alternativ-Match-Hinweis: 107",
+      "zitat": "Ich bin Wifey Material. Ich kann für meinen Mann sorgen und wenn ich liebe, bin ich die treuste Seele überhaupt.",
+      "instagram": "https://www.instagram.com/missfeist/"
+    },
+    {
+      "id": "4bim2m73",
+      "name": "Asena",
+      "photo": "cast/2024-vip/asena.webp",
+      "notiz": "27, Köln, Content Creatorin, bekannt aus: Love Island (2019)",
+      "zitat": "Ich kann ganz schnell von Null auf 100 sein, wenn mir einer gefällt.",
+      "instagram": "https://www.instagram.com/asenaneuhoff/"
+    },
+    {
+      "id": "1ccj4awm",
+      "name": "Anastasia",
+      "photo": "cast/2024-vip/anastasia.webp",
+      "notiz": "24, Berlin, Erotikmodel & Influencerin, bekannt aus: Ex on the Beach (2023), Playboy (2022)",
+      "zitat": "Ich habe auch Sex ohne Gefühle. Ich mache worauf ich Bock habe, und bin ehrlich dabei.",
+      "instagram": "https://www.instagram.com/nastyhale/"
+    }
+  ],
+  "nights": [
+    {
+      "id": "4dm6qhp6",
+      "label": "Nacht 1",
+      "remoteNummer": 1,
+      "pairs": {
+        "ynunfqz9": "a94e3s0h",
+        "rgwpj0az": "q6efefs2",
+        "z4t4bu65": "copxgd6e",
+        "8r36m3lm": "ftbhvp55",
+        "58yt46h9": "4bim2m73",
+        "jrbe41mf": "l2cdx0w7",
+        "1ot9fi77": "rj7jdsgt",
+        "l9ofa6pe": "1ccj4awm",
+        "oo673nm2": "pp8jvrkk",
+        "qugo6i73": "kxasih6u"
+      },
+      "lights": 2,
+      "extraPartner": null
+    },
+    {
+      "id": "jjphjjy4",
+      "label": "Nacht 2",
+      "remoteNummer": 2,
+      "pairs": {
+        "qugo6i73": "ty8lkv7b",
+        "1ot9fi77": "q6efefs2",
+        "8r36m3lm": "1ccj4awm",
+        "58yt46h9": "ftbhvp55",
+        "ynunfqz9": "a94e3s0h",
+        "l9ofa6pe": "4bim2m73",
+        "oo673nm2": "rj7jdsgt",
+        "z4t4bu65": "copxgd6e",
+        "rgwpj0az": "kxasih6u",
+        "jrbe41mf": "l2cdx0w7"
+      },
+      "lights": 3,
+      "extraPartner": null
+    },
+    {
+      "id": "i0krhpr8",
+      "label": "Nacht 3",
+      "remoteNummer": 3,
+      "pairs": {
+        "58yt46h9": "q6efefs2",
+        "1ot9fi77": "1ccj4awm",
+        "l9ofa6pe": "4bim2m73",
+        "ynunfqz9": "ty8lkv7b",
+        "qugo6i73": "ftbhvp55",
+        "rgwpj0az": "a94e3s0h",
+        "oo673nm2": "kxasih6u",
+        "z4t4bu65": "rj7jdsgt",
+        "8r36m3lm": "pp8jvrkk",
+        "jrbe41mf": "l2cdx0w7"
+      },
+      "lights": 3,
+      "extraPartner": null
+    },
+    {
+      "id": "kg758198",
+      "label": "Nacht 4",
+      "remoteNummer": 4,
+      "pairs": {
+        "8r36m3lm": "copxgd6e",
+        "oo673nm2": "kxasih6u",
+        "qugo6i73": "ftbhvp55",
+        "z4t4bu65": "1ccj4awm",
+        "58yt46h9": "4bim2m73",
+        "ynunfqz9": "rj7jdsgt",
+        "rgwpj0az": "pp8jvrkk",
+        "1ot9fi77": "q6efefs2",
+        "l9ofa6pe": "a94e3s0h",
+        "jrbe41mf": "l2cdx0w7"
+      },
+      "lights": 1,
+      "extraPartner": null
+    },
+    {
+      "id": "dmew9x5r",
+      "label": "Nacht 5",
+      "remoteNummer": 5,
+      "pairs": {
+        "oo673nm2": "ty8lkv7b",
+        "l9ofa6pe": "1ccj4awm",
+        "58yt46h9": "copxgd6e",
+        "qugo6i73": "4bim2m73",
+        "z4t4bu65": "rj7jdsgt",
+        "1ot9fi77": "pp8jvrkk",
+        "rgwpj0az": "q6efefs2",
+        "ynunfqz9": "a94e3s0h",
+        "8r36m3lm": "ftbhvp55",
+        "jrbe41mf": "l2cdx0w7"
+      },
+      "lights": 5,
+      "extraPartner": null
+    },
+    {
+      "id": "gu5wul2k",
+      "label": "Nacht 6",
+      "remoteNummer": 6,
+      "pairs": {
+        "rgwpj0az": "q6efefs2",
+        "l9ofa6pe": "kxasih6u",
+        "8r36m3lm": "ty8lkv7b",
+        "ynunfqz9": "a94e3s0h",
+        "qugo6i73": "4bim2m73",
+        "1ot9fi77": "pp8jvrkk",
+        "z4t4bu65": "ftbhvp55",
+        "58yt46h9": "copxgd6e",
+        "oo673nm2": "1ccj4awm",
+        "jrbe41mf": "l2cdx0w7"
+      },
+      "lights": 6,
+      "extraPartner": null
+    },
+    {
+      "id": "sg7hqrgo",
+      "label": "Nacht 7",
+      "remoteNummer": 7,
+      "pairs": {
+        "ynunfqz9": "a94e3s0h",
+        "rgwpj0az": "ty8lkv7b",
+        "1ot9fi77": "pp8jvrkk",
+        "8r36m3lm": "rj7jdsgt",
+        "qugo6i73": "4bim2m73",
+        "58yt46h9": "copxgd6e",
+        "z4t4bu65": "ftbhvp55",
+        "l9ofa6pe": "kxasih6u",
+        "oo673nm2": "1ccj4awm",
+        "jrbe41mf": "l2cdx0w7"
+      },
+      "lights": 6,
+      "extraPartner": null
+    },
+    {
+      "id": "gx3h7fdy",
+      "label": "Nacht 8",
+      "remoteNummer": 8,
+      "pairs": {
+        "rgwpj0az": "copxgd6e",
+        "l9ofa6pe": "kxasih6u",
+        "z4t4bu65": "ftbhvp55",
+        "58yt46h9": "q6efefs2",
+        "1ot9fi77": "pp8jvrkk",
+        "8r36m3lm": "rj7jdsgt",
+        "qugo6i73": "4bim2m73",
+        "ynunfqz9": "a94e3s0h",
+        "oo673nm2": "1ccj4awm",
+        "jrbe41mf": "l2cdx0w7"
+      },
+      "lights": 7,
+      "extraPartner": null
+    },
+    {
+      "id": "563atevj",
+      "label": "Nacht 9",
+      "remoteNummer": 9,
+      "pairs": {
+        "z4t4bu65": "rj7jdsgt",
+        "1ot9fi77": "pp8jvrkk",
+        "l9ofa6pe": "kxasih6u",
+        "qugo6i73": "4bim2m73",
+        "rgwpj0az": "copxgd6e",
+        "58yt46h9": "ftbhvp55",
+        "8r36m3lm": "q6efefs2",
+        "ynunfqz9": "a94e3s0h",
+        "oo673nm2": "1ccj4awm",
+        "jrbe41mf": "l2cdx0w7"
+      },
+      "lights": 10,
+      "extraPartner": null
+    }
+  ],
+  "matchbox": [
+    {
+      "id": "xd4nsnpm",
+      "aId": "l9ofa6pe",
+      "bId": "rj7jdsgt",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "1"
+    },
+    {
+      "id": "maslpw8o",
+      "aId": "jrbe41mf",
+      "bId": "l2cdx0w7",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "2"
+    },
+    {
+      "id": "6axi9x3c",
+      "aId": "1ot9fi77",
+      "bId": "1ccj4awm",
+      "isMatch": false,
+      "verkauft": true,
+      "episode": "3"
+    },
+    {
+      "id": "q5qcamex",
+      "aId": "l9ofa6pe",
+      "bId": "4bim2m73",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "4"
+    },
+    {
+      "id": "bu213b0r",
+      "aId": "z4t4bu65",
+      "bId": "kxasih6u",
+      "isMatch": false,
+      "verkauft": true,
+      "episode": "5"
+    },
+    {
+      "id": "1v07ucml",
+      "aId": "oo673nm2",
+      "bId": "1ccj4awm",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "6"
+    },
+    {
+      "id": "1m9xedpu",
+      "aId": "rgwpj0az",
+      "bId": "q6efefs2",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "7"
+    },
+    {
+      "id": "qziibm8v",
+      "aId": "ynunfqz9",
+      "bId": "a94e3s0h",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "8"
+    },
+    {
+      "id": "l5eqi1zw",
+      "aId": "8r36m3lm",
+      "bId": "rj7jdsgt",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "9"
+    }
+  ],
+  "doubleMatchIds": [
+    "ynunfqz9"
+  ],
+  "nightDraft": null,
+  "mbDraft": {
+    "aId": "",
+    "bId": "",
+    "isMatch": true,
+    "verkauft": false,
+    "episode": "",
+    "editingId": null
+  },
+  "_pushedAt": "2026-08-25T06:59:37Z"
+}

@@ -1,0 +1,491 @@
+{
+  "groupAName": "Männer",
+  "groupBName": "Frauen",
+  "seasonInfo": {
+    "staffel": "2026"
+  },
+  "bench": [],
+  "groupA": [
+    {
+      "id": "cjyt5udm",
+      "name": "Noel",
+      "photo": "cast/2026/noel.webp",
+      "notiz": "27, Kellner",
+      "instagram": "https://www.instagram.com/noel.z.4/"
+    },
+    {
+      "id": "uxqe0qaw",
+      "name": "Meji",
+      "photo": "cast/2026/meji.webp",
+      "notiz": "24, Notfallsanitäter",
+      "instagram": "https://www.instagram.com/its.meji_/"
+    },
+    {
+      "id": "ef5eqm82",
+      "name": "Luke",
+      "photo": "cast/2026/luke.webp",
+      "notiz": "31, Bottrop, Krankenpfleger",
+      "instagram": "https://www.instagram.com/luke_xzy/"
+    },
+    {
+      "id": "jho9033y",
+      "name": "Julian S",
+      "photo": "cast/2026/julian-s.webp",
+      "notiz": "22, Wien, Selbstständig"
+    },
+    {
+      "id": "arqw7rva",
+      "name": "Julian M",
+      "photo": "cast/2026/julian-m.webp",
+      "notiz": "24, Bühl, Elektroniker",
+      "instagram": "https://www.instagram.com/julianmulas/"
+    },
+    {
+      "id": "10146g8x",
+      "name": "Jerry",
+      "photo": "cast/2026/jerry.webp",
+      "notiz": "30, Koblenz, Selbstständig",
+      "instagram": "https://www.instagram.com/jerryms.fit/"
+    },
+    {
+      "id": "f8kl57s6",
+      "name": "Jeronymo",
+      "photo": "cast/2026/jeronymo.webp",
+      "notiz": "22, Köln, IT-Spezialist",
+      "instagram": "https://www.instagram.com/1jeronymo/"
+    },
+    {
+      "id": "u92u7mul",
+      "name": "Evi",
+      "photo": "cast/2026/evi.webp",
+      "notiz": "22, Automobilkaufmann",
+      "instagram": "https://www.instagram.com/evindartrn/"
+    },
+    {
+      "id": "2stwl9jf",
+      "name": "Ema",
+      "photo": "cast/2026/ema.webp",
+      "notiz": "26, München, Selbstständig",
+      "instagram": "https://www.instagram.com/e.boateeng/"
+    },
+    {
+      "id": "hfqq6nz6",
+      "name": "Chris",
+      "photo": "cast/2026/chris.webp",
+      "notiz": "27, Essen, selbstständiger Entrümpler, bekannt aus: Big Brother (2024)",
+      "instagram": "https://www.instagram.com/chriskugathasan/"
+    }
+  ],
+  "groupB": [
+    {
+      "id": "8r7nsshx",
+      "name": "Laura",
+      "photo": "cast/2026/laura.webp",
+      "notiz": "25, München, medizinische Fachangestellte",
+      "instagram": "https://www.instagram.com/laurii.valentina/"
+    },
+    {
+      "id": "tlkrxfbp",
+      "name": "Tonia",
+      "photo": "cast/2026/tonia.webp",
+      "notiz": "26, Leverkusen, Sport- und Fitnesskauffrau",
+      "instagram": "https://www.instagram.com/tonialmb/"
+    },
+    {
+      "id": "qtc22nas",
+      "name": "Tiziana",
+      "photo": "cast/2026/tiziana.webp",
+      "notiz": "24, Karlsruhe, Versicherungs&shy;kauffrau",
+      "instagram": "https://www.instagram.com/tiziana.adriana/"
+    },
+    {
+      "id": "38ctvyz3",
+      "name": "Michelle",
+      "photo": "cast/2026/michelle.webp",
+      "notiz": "23, Berlin, Zahnmedizinische Fachangestellte",
+      "instagram": "https://www.instagram.com/m.bischofff/"
+    },
+    {
+      "id": "a9gg6cbv",
+      "name": "Marla",
+      "photo": "cast/2026/marla.webp",
+      "notiz": "25, Friseurin",
+      "instagram": "https://www.instagram.com/marla_slengard/"
+    },
+    {
+      "id": "lriq9av0",
+      "name": "Linda",
+      "photo": "cast/2026/linda.webp",
+      "notiz": "23, Wien, Ordinations-Assistentin",
+      "instagram": "https://www.instagram.com/lindajan_/"
+    },
+    {
+      "id": "hxdowale",
+      "name": "Adrianna",
+      "photo": "cast/2026/adrianna.webp",
+      "notiz": "24, Berln, OP-Assistentin",
+      "instagram": "https://www.instagram.com/adriannagrey/"
+    },
+    {
+      "id": "wb3s5m9b",
+      "name": "Ella",
+      "photo": "cast/2026/ella.webp",
+      "notiz": "24, München, Studentin",
+      "instagram": "https://www.instagram.com/goldslumberkisses/"
+    },
+    {
+      "id": "lglruile",
+      "name": "Elena",
+      "photo": "cast/2026/elena.webp",
+      "notiz": "29, Studentin",
+      "instagram": "https://www.instagram.com/elena.charlo/"
+    },
+    {
+      "id": "shy5aodf",
+      "name": "Aurora",
+      "photo": "cast/2026/aurora.webp",
+      "notiz": "26, Studentin",
+      "instagram": "https://www.instagram.com/rariirory/"
+    },
+    {
+      "id": "loty7wzk",
+      "name": "Alicia",
+      "photo": "cast/2026/alicia.webp",
+      "notiz": "22, Fuerteventura, Chef Animateurin",
+      "instagram": "https://www.instagram.com/licijana/"
+    }
+  ],
+  "nights": [
+    {
+      "id": "ikim2l7o",
+      "label": "Nacht 1",
+      "remoteNummer": 1,
+      "pairs": {
+        "jho9033y": "hxdowale",
+        "10146g8x": "lglruile",
+        "f8kl57s6": "qtc22nas",
+        "ef5eqm82": "a9gg6cbv",
+        "cjyt5udm": "tlkrxfbp",
+        "2stwl9jf": "38ctvyz3",
+        "u92u7mul": "8r7nsshx",
+        "uxqe0qaw": "wb3s5m9b",
+        "hfqq6nz6": "lriq9av0"
+      },
+      "lights": 3,
+      "extraPartner": null
+    },
+    {
+      "id": "183nw2mm",
+      "label": "Nacht 2",
+      "remoteNummer": 2,
+      "pairs": {
+        "hfqq6nz6": "tlkrxfbp",
+        "f8kl57s6": "qtc22nas",
+        "jho9033y": "loty7wzk",
+        "2stwl9jf": "wb3s5m9b",
+        "cjyt5udm": "lriq9av0",
+        "uxqe0qaw": "lglruile",
+        "ef5eqm82": "a9gg6cbv",
+        "10146g8x": "38ctvyz3",
+        "u92u7mul": "8r7nsshx"
+      },
+      "lights": 2,
+      "extraPartner": null
+    },
+    {
+      "id": "6exeq1xc",
+      "label": "Nacht 3",
+      "remoteNummer": 3,
+      "pairs": {
+        "ef5eqm82": "a9gg6cbv",
+        "jho9033y": "hxdowale",
+        "cjyt5udm": "tlkrxfbp",
+        "10146g8x": "shy5aodf",
+        "uxqe0qaw": "lglruile",
+        "hfqq6nz6": "lriq9av0",
+        "u92u7mul": "8r7nsshx",
+        "f8kl57s6": "qtc22nas",
+        "2stwl9jf": "38ctvyz3"
+      },
+      "lights": 2,
+      "extraPartner": null
+    },
+    {
+      "id": "usfqh9ke",
+      "label": "Nacht 4",
+      "remoteNummer": 4,
+      "pairs": {
+        "hfqq6nz6": "shy5aodf",
+        "ef5eqm82": "tlkrxfbp",
+        "uxqe0qaw": "8r7nsshx",
+        "10146g8x": "lglruile",
+        "u92u7mul": "wb3s5m9b",
+        "jho9033y": "a9gg6cbv",
+        "2stwl9jf": "38ctvyz3",
+        "f8kl57s6": "lriq9av0",
+        "cjyt5udm": "hxdowale"
+      },
+      "lights": 1,
+      "extraPartner": null
+    },
+    {
+      "id": "9qsafeag",
+      "label": "Nacht 5",
+      "remoteNummer": 5,
+      "pairs": {
+        "uxqe0qaw": "wb3s5m9b",
+        "cjyt5udm": "tlkrxfbp",
+        "u92u7mul": "shy5aodf",
+        "jho9033y": "a9gg6cbv",
+        "ef5eqm82": "8r7nsshx",
+        "10146g8x": "lglruile",
+        "2stwl9jf": "38ctvyz3",
+        "f8kl57s6": "qtc22nas",
+        "hfqq6nz6": "lriq9av0"
+      },
+      "lights": 5,
+      "extraPartner": null
+    },
+    {
+      "id": "pp249diu",
+      "label": "Nacht 6",
+      "remoteNummer": 6,
+      "pairs": {
+        "cjyt5udm": "tlkrxfbp",
+        "jho9033y": "a9gg6cbv",
+        "2stwl9jf": "38ctvyz3",
+        "ef5eqm82": "hxdowale",
+        "u92u7mul": "lriq9av0",
+        "f8kl57s6": "8r7nsshx",
+        "uxqe0qaw": "shy5aodf",
+        "10146g8x": "lglruile",
+        "hfqq6nz6": "wb3s5m9b"
+      },
+      "lights": 4,
+      "extraPartner": null
+    },
+    {
+      "id": "2gcxlalt",
+      "label": "Nacht 7",
+      "remoteNummer": 7,
+      "pairs": {
+        "10146g8x": "8r7nsshx",
+        "u92u7mul": "shy5aodf",
+        "f8kl57s6": "qtc22nas",
+        "jho9033y": "a9gg6cbv",
+        "2stwl9jf": "38ctvyz3",
+        "hfqq6nz6": "lriq9av0",
+        "uxqe0qaw": "wb3s5m9b",
+        "ef5eqm82": "lglruile",
+        "cjyt5udm": "tlkrxfbp"
+      },
+      "lights": 4,
+      "extraPartner": null
+    },
+    {
+      "id": "q8v44wok",
+      "label": "Nacht 8",
+      "remoteNummer": 8,
+      "pairs": {
+        "uxqe0qaw": "wb3s5m9b",
+        "10146g8x": "lglruile",
+        "ef5eqm82": "8r7nsshx",
+        "hfqq6nz6": "lriq9av0",
+        "u92u7mul": "38ctvyz3",
+        "jho9033y": "a9gg6cbv",
+        "2stwl9jf": "shy5aodf",
+        "f8kl57s6": "qtc22nas",
+        "cjyt5udm": "tlkrxfbp"
+      },
+      "lights": 5,
+      "extraPartner": null
+    },
+    {
+      "id": "0t0q0m64",
+      "label": "Nacht 9",
+      "remoteNummer": 9,
+      "pairs": {
+        "uxqe0qaw": "wb3s5m9b",
+        "ef5eqm82": "hxdowale",
+        "jho9033y": "a9gg6cbv",
+        "hfqq6nz6": "qtc22nas",
+        "2stwl9jf": "lriq9av0",
+        "f8kl57s6": "38ctvyz3",
+        "u92u7mul": "shy5aodf",
+        "10146g8x": "lglruile",
+        "cjyt5udm": "tlkrxfbp"
+      },
+      "lights": 3,
+      "extraPartner": null
+    },
+    {
+      "id": "a49pm7v9",
+      "label": "Nacht 10",
+      "remoteNummer": 10,
+      "pairs": {
+        "u92u7mul": "hxdowale",
+        "ef5eqm82": "lriq9av0",
+        "10146g8x": "shy5aodf",
+        "jho9033y": "a9gg6cbv",
+        "hfqq6nz6": "8r7nsshx",
+        "uxqe0qaw": "wb3s5m9b",
+        "2stwl9jf": "lglruile",
+        "cjyt5udm": "tlkrxfbp",
+        "f8kl57s6": "qtc22nas"
+      },
+      "lights": 4,
+      "extraPartner": null
+    }
+  ],
+  "matchbox": [
+    {
+      "id": "ymjysffm",
+      "aId": "f8kl57s6",
+      "bId": "qtc22nas",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "10"
+    },
+    {
+      "id": "qqhx0jzh",
+      "aId": "u92u7mul",
+      "bId": "qtc22nas",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "1"
+    },
+    {
+      "id": "8o7j70my",
+      "aId": "2stwl9jf",
+      "bId": "38ctvyz3",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "8"
+    },
+    {
+      "id": "v9agcgy4",
+      "aId": "cjyt5udm",
+      "bId": "tlkrxfbp",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "7"
+    },
+    {
+      "id": "o04tql2s",
+      "aId": "hfqq6nz6",
+      "bId": "shy5aodf",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "5"
+    },
+    {
+      "id": "z7wbyfv8",
+      "aId": "jho9033y",
+      "bId": "a9gg6cbv",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "4"
+    },
+    {
+      "id": "9hshqucv",
+      "aId": "jho9033y",
+      "bId": "lriq9av0",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "3"
+    },
+    {
+      "id": "wq66ehx4",
+      "aId": "cjyt5udm",
+      "bId": "loty7wzk",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": ""
+    },
+    {
+      "id": "3y1lw1ac",
+      "aId": "hfqq6nz6",
+      "bId": "38ctvyz3",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": ""
+    },
+    {
+      "id": "hkmultgg",
+      "aId": "ef5eqm82",
+      "bId": "lriq9av0",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": ""
+    },
+    {
+      "id": "1iocdm9t",
+      "aId": "2stwl9jf",
+      "bId": "8r7nsshx",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": ""
+    },
+    {
+      "id": "824ftrn7",
+      "aId": "u92u7mul",
+      "bId": "wb3s5m9b",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": ""
+    },
+    {
+      "id": "g36070z6",
+      "aId": "10146g8x",
+      "bId": "lglruile",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": ""
+    },
+    {
+      "id": "hqohvv76",
+      "aId": "uxqe0qaw",
+      "bId": "shy5aodf",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": ""
+    },
+    {
+      "id": "1gzsr88o",
+      "aId": "jho9033y",
+      "bId": "hxdowale",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": ""
+    },
+    {
+      "id": "ydbgs3v8",
+      "aId": "uxqe0qaw",
+      "bId": "wb3s5m9b",
+      "isMatch": false,
+      "verkauft": true,
+      "episode": "9"
+    },
+    {
+      "id": "g42sjas7",
+      "aId": "u92u7mul",
+      "bId": "8r7nsshx",
+      "isMatch": false,
+      "verkauft": true,
+      "episode": "2"
+    }
+  ],
+  "doubleMatchIds": [
+    "cjyt5udm"
+  ],
+  "nightDraft": null,
+  "mbDraft": {
+    "aId": "",
+    "bId": "",
+    "isMatch": true,
+    "verkauft": false,
+    "episode": "",
+    "editingId": null
+  },
+  "_pushedAt": "2026-08-22T20:14:45Z"
+}

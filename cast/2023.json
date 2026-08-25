@@ -1,0 +1,181 @@
+{
+  "staffel": "2023",
+  "kandidaten": [
+    {
+      "gruppe": "B",
+      "name": "Mela",
+      "foto": "cast/2023/mela.webp",
+      "notiz": "23, Zürich, Krankenschwester",
+      "zitat": "Ich gehöre einfach ins Fernsehen. So jemanden wie mich gab es im TV noch nie.",
+      "instagram": ""
+    },
+    {
+      "gruppe": "A",
+      "name": "Wilson",
+      "foto": "cast/2023/wilson.webp",
+      "notiz": "25, Hamburg, Tätowierer",
+      "zitat": "Ich bin manchmal ein bisschen egoistisch und eifersüchtiger als man sein sollte",
+      "instagram": "https://www.instagram.com/wilson.tattoos/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Tais",
+      "foto": "cast/2023/tais.webp",
+      "notiz": "21, Hannover, Event- und Social Media Managerin",
+      "zitat": "Macho-Männer haben bei mir keine Chance!",
+      "instagram": "https://www.instagram.com/___tais___/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Sina",
+      "foto": "cast/2023/sina.webp",
+      "notiz": "26, Köln, Visual Merchandiserin",
+      "zitat": "Ich diskutiere alles bis zum bitteren Ende aus.",
+      "instagram": "https://www.instagram.com/sinaelisa__/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Sidar",
+      "foto": "cast/2023/sidar.webp",
+      "notiz": "25, Krefeld, Student",
+      "zitat": "Ich lasse mich bei AYTO von meinem Herz leiten.",
+      "instagram": "https://www.instagram.com/sidarsahin01/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Shelly",
+      "foto": "cast/2023/shelly.webp",
+      "notiz": "25, Rostock, Friseurmeisterin",
+      "zitat": "Ich hasse lästern, ich spreche alles straight aus.",
+      "instagram": "https://www.instagram.com/shellylyx/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Sandro",
+      "foto": "cast/2023/sandro.webp",
+      "notiz": "28, Heidelberg, Soldat",
+      "zitat": "Ich weiß, wie ich Konkurrenz aus dem Weg räume.",
+      "instagram": "https://www.instagram.com/sandroritzini/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Ryan",
+      "foto": "cast/2023/ryan.webp",
+      "notiz": "21, Landshut, Automobilkaufmann",
+      "zitat": "Mir ist das Aussehen wichtiger als der Charakter",
+      "instagram": "https://www.instagram.com/ryanwoe/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Pia",
+      "foto": "cast/2023/pia.webp",
+      "notiz": "24, Magdeburg, Bankkauffrau",
+      "zitat": "Ich will mich gerne durchtesten bei den Jungs.",
+      "instagram": ""
+    },
+    {
+      "gruppe": "A",
+      "name": "Paul",
+      "foto": "cast/2023/paul.webp",
+      "notiz": "22, Wuppertal, angehender Immobilienmakle",
+      "zitat": "Ich bin manchmal zu temperamentvoll und provokant.",
+      "instagram": "https://www.instagram.com/_paulo288_/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Paddy",
+      "foto": "cast/2023/paddy.webp",
+      "notiz": "23, Stuttgart, Elektriker",
+      "zitat": "Ich polarisiere sehr, egal wo ich hinkomme.",
+      "instagram": "https://www.instagram.com/paddy.ngl/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Afra",
+      "foto": "cast/2023/afra.webp",
+      "notiz": "26, Bochum, Studentin",
+      "zitat": "One Night Stands klappen bei mir nicht, die Männer sind immer in Love mit mir.",
+      "instagram": "https://www.instagram.com/afraaysha/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Martin",
+      "foto": "cast/2023/martin.webp",
+      "notiz": "26, Augsburg, Kundenberater",
+      "zitat": "Ich weiß, was Frauen hören wollen.",
+      "instagram": "https://www.instagram.com/_thisismartin_/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Maja",
+      "foto": "cast/2023/maja.webp",
+      "notiz": "24, Berlin, Marketing-Managerin",
+      "zitat": "Wenn ich nicht die Nummer 1 bin, dann 'go and fuck yourself'",
+      "instagram": "https://www.instagram.com/maja_kw/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Lisa-Marie",
+      "foto": "cast/2023/lisa-marie.webp",
+      "notiz": "24, Iserlohn, Einzelhandelsverkäuferin",
+      "zitat": "Ich bin auf jeden Fall bereit für was Neues und Ernstes.",
+      "instagram": "https://www.instagram.com/marieexlisaa/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Lina",
+      "foto": "cast/2023/lina.webp",
+      "notiz": "28, Berlin, Flugbegleiterin & Studentin",
+      "zitat": "Meine Beziehungen waren alle toxisch.",
+      "instagram": "https://www.instagram.com/ballerlina/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Kevin",
+      "foto": "cast/2023/kevin.webp",
+      "notiz": "20, Berlin, Fußballer",
+      "zitat": "Ich spreche Frauen nicht an, ich lasse mich ansprechen.",
+      "instagram": "https://www.instagram.com/kevken.looo/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Julia",
+      "foto": "cast/2023/julia.webp",
+      "notiz": "23, Nähe von Köln, Verkäuferin",
+      "zitat": "Ich hasse Oberflächlichkeit. Aussehen ist nicht alles.",
+      "instagram": "https://www.instagram.com/juliapoulissis/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Jana",
+      "foto": "cast/2023/jana.webp",
+      "notiz": "26, Dortmund, Krankenschwester",
+      "zitat": "In fünf Jahren hätte ich schon gerne einen Ring am Finger.",
+      "instagram": "https://www.instagram.com/janakl__/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Gerrit",
+      "foto": "cast/2023/gerrit.webp",
+      "notiz": "24, Köln, Student",
+      "zitat": "Um den ersten Schritt bei einer Frau zu machen, muss ich mich echt überwinden.",
+      "instagram": "https://www.instagram.com/gerrit_kleinz/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Eti",
+      "foto": "cast/2023/eti.webp",
+      "notiz": "22, Duisburg, Student",
+      "zitat": "Ich hasse Arroganz und wenn Frauen denken, sie könnten jeden haben, nur weil sie gut aussehen.",
+      "instagram": "https://www.instagram.com/et1nosa/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Edda",
+      "foto": "cast/2023/edda.webp",
+      "notiz": "22, Berlin, Personal Trainer",
+      "zitat": "Ich komme in den Raum und dann sind 'All eyes on me'.",
+      "instagram": "https://www.instagram.com/edda.elisa/"
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "groupAName": "Männer",
+  "groupBName": "Frauen",
+  "seasonInfo": {
+    "staffel": "2023 (VIP)"
+  },
+  "bench": [
+    {
+      "id": "rfzodtzv",
+      "name": "Peter",
+      "photo": "cast/2023-vip/peter.webp",
+      "notiz": "25, Schweiz, Handballtorwart, bekannt aus: Germany Shore (2023), Bachelorette Schweiz (2022), Take me out (2017). Hatte ebenfalls ein Perfect Match mit Paulia - musste die Villa nach der Sonderentscheidung in Runde 7 verlassen (Max entschied sich, die Matchbox-Entscheidung zu verkaufen).",
+      "zitat": "Freundschaften mit Frauen finde ich eher schwierig.",
+      "instagram": "https://www.instagram.com/p.kujan/"
+    }
+  ],
+  "groupA": [
+    {
+      "id": "qppvhs5n",
+      "name": "Marvin",
+      "photo": "cast/2023-vip/marvin.webp",
+      "notiz": "28, Aachen, bekannt aus: Couple Challenge - Winter (2022), Swipe, Match, Love (2022)",
+      "zitat": "Eifersüchtige Frauen finde ich ganz cool.",
+      "instagram": "https://www.instagram.com/marvinkleinen/"
+    },
+    {
+      "id": "upq6ojpn",
+      "name": "Teezy",
+      "photo": "cast/2023-vip/teezy.webp",
+      "notiz": "28, Düsseldorf, Content Creator, bekannt aus: Ex on the Beach (2022)",
+      "zitat": "Ich bin cool und ein Gangster.",
+      "instagram": "https://www.instagram.com/kingmorteezy/"
+    },
+    {
+      "id": "zrb3wnhk",
+      "name": "Steffen",
+      "photo": "cast/2023-vip/steffen.webp",
+      "notiz": "29, Bremen, Vertriebler, bekannt aus: Bachelorette (2022)",
+      "zitat": "Wer nicht wagt, gewinnt nicht.",
+      "instagram": "https://www.instagram.com/vogeno/"
+    },
+    {
+      "id": "j4kw6rk5",
+      "name": "Paco",
+      "photo": "cast/2023-vip/paco.webp",
+      "notiz": "27, Hannover, Bademeister, bekannt aus: Kampf der Realitystars (2022), Love Island (2021)",
+      "zitat": "Ich bin seit dreieinhalb Jahren Single - aber da spalten sich die Meinungen.",
+      "instagram": "https://www.instagram.com/paco_hrb/"
+    },
+    {
+      "id": "bsj2i7to",
+      "name": "Mike",
+      "photo": "cast/2023-vip/mike.webp",
+      "notiz": "31, Essen, Inhaber Modelable LUXAGER, bekannt aus: Kampf der Realitystarts (2021), Ich bin ein Star - Dschungelshow (2021), Promi Ninja Warrior Germany (2020) u.a.",
+      "zitat": "Meine Frau darf nicht zu schlau sein.",
+      "instagram": "https://www.instagram.com/mikeheiter/"
+    },
+    {
+      "id": "eq1arftt",
+      "name": "Max",
+      "photo": "cast/2023-vip/max.webp",
+      "notiz": "26, Köln, Influencer, bekannt aus: Make Love, Fake Love (2023)",
+      "zitat": "Ich habe keine Lust auf langweiligen Sex unter der Decke.",
+      "instagram": "https://www.instagram.com/max_bornmann/"
+    },
+    {
+      "id": "71nirt71",
+      "name": "Fabio",
+      "photo": "cast/2023-vip/fabio.webp",
+      "notiz": "30, München, Staubsaugervertreter, bekannt aus: Make Love Fake Love (2023)",
+      "zitat": "Ich habe oft Frauen, die älter sind als ich.",
+      "instagram": "https://www.instagram.com/fabioknez/"
+    },
+    {
+      "id": "yz8crggs",
+      "name": "Emanuell",
+      "photo": "cast/2023-vip/emanuell.webp",
+      "notiz": "30, München, Eventmanager und Koch, bekannt aus: Bachelorette (2022), Bachelor in Paradise (2022)",
+      "zitat": "Ich war immer der Herzensbrecher.",
+      "instagram": "https://www.instagram.com/emanuell.wss/"
+    },
+    {
+      "id": "rzd4ksg2",
+      "name": "Elia",
+      "photo": "cast/2023-vip/elia.webp",
+      "notiz": "30, Bayern, Singer / Songwriter / Model, bekannt aus: Germany Shore (2021)",
+      "zitat": "Ich würde nie mein Instagram löschen für eine Frau.",
+      "instagram": "https://www.instagram.com/eliaberthoud/"
+    },
+    {
+      "id": "w6wmxbed",
+      "name": "Danielo",
+      "photo": "cast/2023-vip/danielo.webp",
+      "notiz": "26, Baden-Württemberg, Schauspieler, bekannt aus: Germany Shore (2021), Love Island (2019)",
+      "zitat": "Tief im Herzen sehne ich mich nach einer tollen Frau, einer schönen Beziehung und hübschen Kindern.",
+      "instagram": "https://www.instagram.com/danilocristilli/"
+    }
+  ],
+  "groupB": [
+    {
+      "id": "4jyaupub",
+      "name": "Stefanie",
+      "photo": "cast/2023-vip/stefanie.webp",
+      "notiz": "26, München, Selbständige Gastronomin, bekannt aus: Are you the one (2022)",
+      "zitat": "Ich würde diesmal offener sein und mehrere Männer kennenlernen.",
+      "instagram": "https://www.instagram.com/stefxniex/"
+    },
+    {
+      "id": "ua7zzv6u",
+      "name": "Sandra",
+      "photo": "cast/2023-vip/sandra.webp",
+      "notiz": "31, Köln, Content Creatorin, bekannt aus: Temptation Island (2022), Couple Challenge (2022), Ex on the Beach (2021)",
+      "zitat": "Wenn ich merke, dass ein Typ sich anderweitig umschaut, verliere ich das Interesse.",
+      "instagram": "https://www.instagram.com/sandra.sicora/"
+    },
+    {
+      "id": "nx6ppzm6",
+      "name": "Sabrina",
+      "photo": "cast/2023-vip/sabrina.webp",
+      "notiz": "26, Wien, Only Fans Model, bekannt aus: Bachelor Schweiz (2022), Are you the one (2021), Take me out (2020)",
+      "zitat": "Ich suche mir oft Männer aus, die mir nicht gerecht werden",
+      "instagram": "https://www.instagram.com/sabrinawlk/"
+    },
+    {
+      "id": "m8lj5tuu",
+      "name": "Paulia",
+      "photo": "cast/2023-vip/paulia.webp",
+      "notiz": "21, Köln, Influencer, bekannt aus: Ex on the Beach (2022)",
+      "zitat": "Wenn ich sage, ich mag keinen Streit, würde ich lügen.",
+      "instagram": "https://www.instagram.com/paulinapilch/"
+    },
+    {
+      "id": "wpevfvck",
+      "name": "Alicia",
+      "photo": "cast/2023-vip/alicia.webp",
+      "notiz": "29, München, Tänzerin, bekannt aus: Temptation Island (2021)",
+      "zitat": "Ich könnte nicht mein Leben lang Single sein.",
+      "instagram": "https://www.instagram.com/alicia.isa.belle/"
+    },
+    {
+      "id": "gyfvgpt8",
+      "name": "Marie",
+      "photo": "cast/2023-vip/marie.webp",
+      "notiz": "26, Österreich, Bankberaterin, bekannt aus: Are you the one (2021)",
+      "zitat": "Männer verlieben sich oft in mich, aber ich mich nicht in sie.",
+      "instagram": "https://www.instagram.com/__mariemiller__/"
+    },
+    {
+      "id": "ki6evh9x",
+      "name": "Kim-Virginia",
+      "photo": "cast/2023-vip/kim-virginia.webp",
+      "notiz": "28, Miami, Content-Creatorin, bekannt aus: Bachelor in Paradise (2022), Bachelor (2021), Temptation Island (2021)",
+      "zitat": "Ich bin ein absolutes Unikat, eine Boss Lady.",
+      "instagram": "https://www.instagram.com/kimvirginiaa/"
+    },
+    {
+      "id": "24sl14wl",
+      "name": "Jenny",
+      "photo": "cast/2023-vip/jenny.webp",
+      "notiz": "25, Köln, Influencer, bekannt aus: Love Island (2021)",
+      "zitat": "Ich bin so eine Flirtmaschine.",
+      "instagram": "https://www.instagram.com/jenniferdegenhart_/"
+    },
+    {
+      "id": "ch1vycul",
+      "name": "Darya",
+      "photo": "cast/2023-vip/darya.webp",
+      "notiz": "30, München, bekannt aus: Germanys Next Topmodel (2015)",
+      "zitat": "Ich bin ein materialistischer Mensch, stehe auf Designer und Luxus.",
+      "instagram": "https://www.instagram.com/darya/"
+    },
+    {
+      "id": "qbscjuu3",
+      "name": "Christina-Shakira",
+      "photo": "cast/2023-vip/christina-shakira.webp",
+      "notiz": "25, Kaiserslautern, Sport- und Fitnesskauffrau, bekannt aus: Bachelor (2022), Bachelor in Paradise (2022)",
+      "zitat": "Mein Partner muss das Geld nach Hause bringen.",
+      "instagram": "https://www.instagram.com/christinashakira/"
+    }
+  ],
+  "nights": [
+    {
+      "id": "night1vip23",
+      "label": "Nacht 1",
+      "remoteNummer": 1,
+      "pairs": {
+        "w6wmxbed": "ch1vycul",
+        "j4kw6rk5": "ua7zzv6u",
+        "zrb3wnhk": "m8lj5tuu",
+        "bsj2i7to": "ki6evh9x",
+        "yz8crggs": "nx6ppzm6",
+        "qppvhs5n": "qbscjuu3",
+        "rzd4ksg2": "24sl14wl",
+        "71nirt71": "gyfvgpt8",
+        "upq6ojpn": "4jyaupub"
+      },
+      "lights": 3,
+      "extraPartner": null
+    },
+    {
+      "id": "night2vip23",
+      "label": "Nacht 2",
+      "remoteNummer": 2,
+      "pairs": {
+        "bsj2i7to": "nx6ppzm6",
+        "w6wmxbed": "m8lj5tuu",
+        "j4kw6rk5": "ki6evh9x",
+        "zrb3wnhk": "wpevfvck",
+        "qppvhs5n": "24sl14wl",
+        "upq6ojpn": "4jyaupub",
+        "yz8crggs": "ch1vycul",
+        "71nirt71": "gyfvgpt8",
+        "rzd4ksg2": "ua7zzv6u"
+      },
+      "lights": 2,
+      "extraPartner": null
+    },
+    {
+      "id": "night3vip23",
+      "label": "Nacht 3",
+      "remoteNummer": 3,
+      "pairs": {
+        "zrb3wnhk": "wpevfvck",
+        "j4kw6rk5": "ua7zzv6u",
+        "71nirt71": "qbscjuu3",
+        "rzd4ksg2": "gyfvgpt8",
+        "w6wmxbed": "ch1vycul",
+        "qppvhs5n": "4jyaupub",
+        "bsj2i7to": "m8lj5tuu",
+        "upq6ojpn": "ki6evh9x",
+        "yz8crggs": "24sl14wl"
+      },
+      "lights": 2,
+      "extraPartner": null
+    },
+    {
+      "id": "night4vip23",
+      "label": "Nacht 4",
+      "remoteNummer": 4,
+      "pairs": {
+        "zrb3wnhk": "ua7zzv6u",
+        "eq1arftt": "m8lj5tuu",
+        "rzd4ksg2": "gyfvgpt8",
+        "w6wmxbed": "ch1vycul",
+        "71nirt71": "qbscjuu3",
+        "j4kw6rk5": "nx6ppzm6",
+        "yz8crggs": "4jyaupub",
+        "qppvhs5n": "24sl14wl",
+        "upq6ojpn": "wpevfvck"
+      },
+      "lights": 4,
+      "extraPartner": null
+    },
+    {
+      "id": "night5vip23",
+      "label": "Nacht 5",
+      "remoteNummer": 5,
+      "pairs": {
+        "yz8crggs": "nx6ppzm6",
+        "j4kw6rk5": "qbscjuu3",
+        "bsj2i7to": "m8lj5tuu",
+        "upq6ojpn": "ki6evh9x",
+        "qppvhs5n": "24sl14wl",
+        "eq1arftt": "ua7zzv6u",
+        "zrb3wnhk": "wpevfvck",
+        "71nirt71": "gyfvgpt8",
+        "rzd4ksg2": "4jyaupub",
+        "w6wmxbed": "ch1vycul"
+      },
+      "lights": 3,
+      "extraPartner": null
+    },
+    {
+      "id": "night6vip23",
+      "label": "Nacht 6",
+      "remoteNummer": 6,
+      "pairs": {
+        "j4kw6rk5": "wpevfvck",
+        "zrb3wnhk": "ua7zzv6u",
+        "bsj2i7to": "m8lj5tuu",
+        "qppvhs5n": "24sl14wl",
+        "71nirt71": "qbscjuu3",
+        "rzd4ksg2": "gyfvgpt8",
+        "4jyaupub": "yz8crggs",
+        "upq6ojpn": "ki6evh9x",
+        "w6wmxbed": "ch1vycul"
+      },
+      "lights": 4,
+      "extraPartner": null
+    },
+    {
+      "id": "night7vip23",
+      "label": "Nacht 7",
+      "remoteNummer": 7,
+      "pairs": {
+        "4jyaupub": "rzd4ksg2",
+        "gyfvgpt8": "zrb3wnhk",
+        "ki6evh9x": "upq6ojpn",
+        "nx6ppzm6": "yz8crggs",
+        "qbscjuu3": "eq1arftt",
+        "m8lj5tuu": "qppvhs5n",
+        "24sl14wl": "j4kw6rk5",
+        "wpevfvck": "71nirt71",
+        "ua7zzv6u": "bsj2i7to",
+        "ch1vycul": "w6wmxbed"
+      },
+      "lights": 3,
+      "extraPartner": null
+    },
+    {
+      "id": "night8vip23",
+      "label": "Nacht 8",
+      "remoteNummer": 8,
+      "pairs": {
+        "71nirt71": "ua7zzv6u",
+        "bsj2i7to": "4jyaupub",
+        "j4kw6rk5": "wpevfvck",
+        "qppvhs5n": "24sl14wl",
+        "eq1arftt": "ki6evh9x",
+        "zrb3wnhk": "qbscjuu3",
+        "yz8crggs": "nx6ppzm6",
+        "upq6ojpn": "m8lj5tuu",
+        "rzd4ksg2": "gyfvgpt8",
+        "w6wmxbed": "ch1vycul"
+      },
+      "lights": 1,
+      "extraPartner": null
+    },
+    {
+      "id": "night9vip23",
+      "label": "Nacht 9",
+      "remoteNummer": 9,
+      "pairs": {
+        "nx6ppzm6": "bsj2i7to",
+        "24sl14wl": "eq1arftt",
+        "m8lj5tuu": "j4kw6rk5",
+        "gyfvgpt8": "71nirt71",
+        "wpevfvck": "zrb3wnhk",
+        "ki6evh9x": "upq6ojpn",
+        "ua7zzv6u": "rzd4ksg2",
+        "qbscjuu3": "qppvhs5n",
+        "ch1vycul": "w6wmxbed",
+        "4jyaupub": "yz8crggs"
+      },
+      "lights": 6,
+      "extraPartner": null
+    },
+    {
+      "id": "night10vip23",
+      "label": "Nacht 10",
+      "remoteNummer": 10,
+      "pairs": {
+        "qbscjuu3": "qppvhs5n",
+        "nx6ppzm6": "bsj2i7to",
+        "ki6evh9x": "upq6ojpn",
+        "gyfvgpt8": "71nirt71",
+        "ua7zzv6u": "zrb3wnhk",
+        "m8lj5tuu": "eq1arftt",
+        "24sl14wl": "j4kw6rk5",
+        "ch1vycul": "w6wmxbed",
+        "4jyaupub": "yz8crggs",
+        "wpevfvck": "rzd4ksg2"
+      },
+      "lights": 10,
+      "extraPartner": null
+    }
+  ],
+  "matchbox": [
+    {
+      "id": "mb1vip23",
+      "aId": "w6wmxbed",
+      "bId": "24sl14wl",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "1"
+    },
+    {
+      "id": "mb2vip23",
+      "aId": "rzd4ksg2",
+      "bId": "24sl14wl",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "2"
+    },
+    {
+      "id": "mb3vip23",
+      "aId": "rzd4ksg2",
+      "bId": "ch1vycul",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "3"
+    },
+    {
+      "id": "mb4vip23",
+      "aId": "bsj2i7to",
+      "bId": "ki6evh9x",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "4"
+    },
+    {
+      "id": "mb5vip23",
+      "aId": "w6wmxbed",
+      "bId": "ch1vycul",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "5"
+    },
+    {
+      "id": "mb6vip23",
+      "aId": "upq6ojpn",
+      "bId": "wpevfvck",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "6"
+    },
+    {
+      "id": "mb7vip23",
+      "aId": "eq1arftt",
+      "bId": "m8lj5tuu",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "7"
+    },
+    {
+      "id": "mb8vip23",
+      "aId": "eq1arftt",
+      "bId": "nx6ppzm6",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "8"
+    },
+    {
+      "id": "mb9vip23",
+      "aId": "yz8crggs",
+      "bId": "4jyaupub",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "9"
+    }
+  ],
+  "doubleMatchIds": [],
+  "nightDraft": null,
+  "mbDraft": {
+    "aId": "",
+    "bId": "",
+    "isMatch": true,
+    "verkauft": false,
+    "episode": "",
+    "editingId": null
+  },
+  "_pushedAt": "2026-08-25T06:59:23Z"
+}

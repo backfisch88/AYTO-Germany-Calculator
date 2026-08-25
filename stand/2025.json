@@ -1,0 +1,472 @@
+{
+  "groupAName": "Männer",
+  "groupBName": "Frauen",
+  "seasonInfo": {
+    "staffel": "2025"
+  },
+  "bench": [],
+  "groupA": [
+    {
+      "id": "2fcxzwdo",
+      "name": "Josh",
+      "photo": "cast/2025/josh.webp",
+      "notiz": "28, Monaco, Influencer und Musiker",
+      "zitat": "Ich bin sehr romantisch, sehr direkt und sage, was ich denke und wenn ich wen mag, dann sag ich es.",
+      "instagram": "https://www.instagram.com/joshstanleymc/"
+    },
+    {
+      "id": "3txjj25d",
+      "name": "Tano",
+      "photo": "cast/2025/tano.webp",
+      "notiz": "23, Siegen, Maschinenführer",
+      "zitat": "Wenn mir was nicht passt, beende ich es. Keinen Bock auf Kopfschmerzen.",
+      "instagram": "https://www.instagram.com/tanoitaa21/"
+    },
+    {
+      "id": "4wnq2sr3",
+      "name": "Sinan",
+      "photo": "cast/2025/sinan.webp",
+      "notiz": "30, Berlin, Sales Manager und gelernter Modeberater",
+      "zitat": "Ich bin liebevoll, leidenschaftlich, humorvoll und kommunikativ. Ich komme mit allen immer klar.",
+      "instagram": "https://www.instagram.com/sinansmile_/"
+    },
+    {
+      "id": "3yqcudqz",
+      "name": "Levin",
+      "photo": "cast/2025/levin.webp",
+      "notiz": "25, Karlsruhe, Physiotherapeut",
+      "zitat": "Meinen magischen Händen kann keine widerstehen.",
+      "instagram": "https://www.instagram.com/werlevin/"
+    },
+    {
+      "id": "6ya3eqcv",
+      "name": "Kaan",
+      "photo": "cast/2025/kaan.webp",
+      "notiz": "29, Hürth, Barkeeper",
+      "zitat": "Wenn ich in einen Raum komme, falle ich einfach auf. ",
+      "instagram": "https://www.instagram.com/kaan__os/"
+    },
+    {
+      "id": "6jmwb9d9",
+      "name": "Joshua",
+      "photo": "cast/2025/joshua.webp",
+      "notiz": "24, Aachen, Student",
+      "zitat": "Ich mag alles an mir, ich bin ein Star. ",
+      "instagram": "https://www.instagram.com/joshua.gyamfii/"
+    },
+    {
+      "id": "9u5vaitp",
+      "name": "Enes",
+      "photo": "cast/2025/enes.webp",
+      "notiz": "23, Hamburg, BWL-Student",
+      "zitat": "Ich stehe auf interessante Frauen - 0815 ist nicht so meins.",
+      "instagram": "https://www.instagram.com/enesfuturo/"
+    },
+    {
+      "id": "nuaqcstq",
+      "name": "Dion",
+      "photo": "cast/2025/dion.webp",
+      "notiz": "25, Pfungstadt, Großhandelskaufmann",
+      "zitat": "Ich habe kein Problem damit, Körbe zu verteilen.",
+      "instagram": "https://www.instagram.com/dion_brwn/"
+    },
+    {
+      "id": "dw88s2ev",
+      "name": "Dino",
+      "photo": "cast/2025/dino.webp",
+      "notiz": "29, München, Selbständig",
+      "zitat": "Ich habe mit dem Alter gemerkt, dass es Wichtigeres gibt als die Optik.",
+      "instagram": "https://www.instagram.com/dino.ko94/"
+    },
+    {
+      "id": "rrxgrbhx",
+      "name": "Danish",
+      "photo": "cast/2025/danish.webp",
+      "notiz": "27, Garbsen, Sales Manager",
+      "zitat": "Dank meines Aussehens habe ich noch nie einen Korb bekommen”",
+      "instagram": "https://www.instagram.com/danish.jsk/"
+    }
+  ],
+  "groupB": [
+    {
+      "id": "ojnknzab",
+      "name": "Tori",
+      "photo": "cast/2025/tori.webp",
+      "notiz": "24, Bierutów (Polen, Content Creato",
+      "zitat": "Man kriegt mich gut mit Humor. Wenn er mit mir tiefgründig sprechen kann, dann ist das toll.",
+      "instagram": "https://www.instagram.com/torisback/"
+    },
+    {
+      "id": "xou5vbeg",
+      "name": "Sophia",
+      "photo": "cast/2025/sophia.webp",
+      "notiz": "23, Siegen, Abbuchungsmanagerin",
+      "zitat": "Ich mag richtige Männer und keine kleinen Jungs.",
+      "instagram": "https://www.instagram.com/sophiakowski/"
+    },
+    {
+      "id": "ln171cc9",
+      "name": "Selina",
+      "photo": "cast/2025/selina.webp",
+      "notiz": "23, Nürnberg, Bürokauffrau",
+      "zitat": "Ich würde mich nicht daten wollen.",
+      "instagram": "https://www.instagram.com/selina_mercy/"
+    },
+    {
+      "id": "7l6tbp6m",
+      "name": "Nasti",
+      "photo": "cast/2025/nasti.webp",
+      "notiz": "27, Kiel, Amtsassistentin",
+      "zitat": "Ich habe meine Ansprüche schon runtergeschraubt und trotzdem ist der Richtige bisher nicht dabei."
+    },
+    {
+      "id": "3pf90ntg",
+      "name": "Nadja",
+      "photo": "cast/2025/nadja.webp",
+      "notiz": "25, Stuttgart, Studentin & DJ",
+      "zitat": "Ich hatte meine Single Era - jetzt bin ich ready für was Festes.",
+      "instagram": "https://www.instagram.com/nnadjavi/"
+    },
+    {
+      "id": "brb80xdk",
+      "name": "Anna",
+      "photo": "cast/2025/anna.webp",
+      "notiz": "24, Köln, Studentin",
+      "zitat": "Ich habe ein extrem schlechtes Händchen für Männer, wenn man denkt, schlimmer kann der nächste nicht werden, lege ich noch eins oben drauf.",
+      "instagram": "https://www.instagram.com/annaoliviax/"
+    },
+    {
+      "id": "r0s7iww7",
+      "name": "Joanna",
+      "photo": "cast/2025/joanna.webp",
+      "notiz": "26, Stuttgart, Store Managerin",
+      "zitat": "An meiner Seite sieht jeder Mann gut aus."
+    },
+    {
+      "id": "4km9qlec",
+      "name": "Ina",
+      "photo": "cast/2025/ina.webp",
+      "notiz": "30, Bielefeld, Tattoo- und Make-up Artist",
+      "zitat": "Ich mag es, wenn die Männer rangehen und dann gucke ich, ob ich sie zurückweise.",
+      "instagram": "https://www.instagram.com/ina.kina/"
+    },
+    {
+      "id": "xo7yzacd",
+      "name": "Deisy",
+      "photo": "cast/2025/deisy.webp",
+      "notiz": "26, Düsseldorf, Friseurin",
+      "zitat": "Meine einzige Beziehung dauerte über 10 Jahre."
+    },
+    {
+      "id": "2fdxm00i",
+      "name": "Chiara",
+      "photo": "cast/2025/chiara.webp",
+      "notiz": "24, Neuss, Immobilienkaufrau",
+      "zitat": "Beim Flirten warte ich meistens, ob was vom Mann kommt.",
+      "instagram": "https://www.instagram.com/ciiaraa____/"
+    },
+    {
+      "id": "il9elcai",
+      "name": "Camelia",
+      "photo": "cast/2025/camelia.webp",
+      "notiz": "29, Dortmund, Influencerin",
+      "zitat": "Ich stehe nicht auf Arschlöcher, aber ich will sie erziehen.",
+      "instagram": "https://www.instagram.com/minicuta/"
+    }
+  ],
+  "nights": [
+    {
+      "id": "fpiod7uf",
+      "label": "Nacht 1",
+      "remoteNummer": 1,
+      "pairs": {
+        "dw88s2ev": "xo7yzacd",
+        "4wnq2sr3": "4km9qlec",
+        "6ya3eqcv": "r0s7iww7",
+        "nuaqcstq": "ojnknzab",
+        "9u5vaitp": "brb80xdk",
+        "rrxgrbhx": "xou5vbeg",
+        "6jmwb9d9": "ln171cc9",
+        "3yqcudqz": "il9elcai",
+        "2fcxzwdo": "3pf90ntg",
+        "3txjj25d": "2fdxm00i"
+      },
+      "lights": 2,
+      "extraPartner": null
+    },
+    {
+      "id": "0ujuyn1o",
+      "label": "Nacht 2",
+      "remoteNummer": 2,
+      "pairs": {
+        "2fcxzwdo": "3pf90ntg",
+        "6ya3eqcv": "brb80xdk",
+        "3yqcudqz": "2fdxm00i",
+        "rrxgrbhx": "il9elcai",
+        "9u5vaitp": "7l6tbp6m",
+        "3txjj25d": "ojnknzab",
+        "dw88s2ev": "xo7yzacd",
+        "6jmwb9d9": "r0s7iww7",
+        "4wnq2sr3": "4km9qlec",
+        "nuaqcstq": "ln171cc9"
+      },
+      "lights": 3,
+      "extraPartner": null
+    },
+    {
+      "id": "ui6ratzp",
+      "label": "Nacht 3",
+      "remoteNummer": 3,
+      "pairs": {
+        "6jmwb9d9": "r0s7iww7",
+        "nuaqcstq": "2fdxm00i",
+        "dw88s2ev": "xo7yzacd",
+        "6ya3eqcv": "brb80xdk",
+        "3yqcudqz": "il9elcai",
+        "3txjj25d": "ojnknzab",
+        "2fcxzwdo": "3pf90ntg",
+        "9u5vaitp": "ln171cc9",
+        "4wnq2sr3": "7l6tbp6m",
+        "rrxgrbhx": "xou5vbeg"
+      },
+      "lights": 4,
+      "extraPartner": null
+    },
+    {
+      "id": "gscjcn84",
+      "label": "Nacht 4",
+      "remoteNummer": 4,
+      "pairs": {
+        "9u5vaitp": "ln171cc9",
+        "3yqcudqz": "il9elcai",
+        "3txjj25d": "ojnknzab",
+        "dw88s2ev": "xo7yzacd",
+        "2fcxzwdo": "4km9qlec",
+        "nuaqcstq": "7l6tbp6m",
+        "4wnq2sr3": "xou5vbeg",
+        "6ya3eqcv": "brb80xdk",
+        "6jmwb9d9": "r0s7iww7",
+        "rrxgrbhx": "3pf90ntg"
+      },
+      "lights": 4,
+      "extraPartner": null
+    },
+    {
+      "id": "0f30tbe1",
+      "label": "Nacht 5",
+      "remoteNummer": 5,
+      "pairs": {
+        "4wnq2sr3": "7l6tbp6m",
+        "6jmwb9d9": "r0s7iww7",
+        "2fcxzwdo": "4km9qlec",
+        "3txjj25d": "ojnknzab",
+        "6ya3eqcv": "xou5vbeg",
+        "9u5vaitp": "ln171cc9",
+        "nuaqcstq": "2fdxm00i",
+        "3yqcudqz": "il9elcai",
+        "dw88s2ev": "xo7yzacd",
+        "rrxgrbhx": "3pf90ntg"
+      },
+      "lights": 4,
+      "extraPartner": null
+    },
+    {
+      "id": "1efq119h",
+      "label": "Nacht 6",
+      "remoteNummer": 6,
+      "pairs": {
+        "nuaqcstq": "brb80xdk",
+        "3yqcudqz": "2fdxm00i",
+        "2fcxzwdo": "7l6tbp6m",
+        "4wnq2sr3": "il9elcai",
+        "6ya3eqcv": "xou5vbeg",
+        "3txjj25d": "ojnknzab",
+        "9u5vaitp": "ln171cc9",
+        "6jmwb9d9": "4km9qlec",
+        "dw88s2ev": "xo7yzacd",
+        "rrxgrbhx": "3pf90ntg"
+      },
+      "lights": 5,
+      "extraPartner": null
+    },
+    {
+      "id": "xd3v0ilh",
+      "label": "Nacht 7",
+      "remoteNummer": 7,
+      "pairs": {
+        "6ya3eqcv": "ln171cc9",
+        "6jmwb9d9": "r0s7iww7",
+        "3yqcudqz": "2fdxm00i",
+        "2fcxzwdo": "il9elcai",
+        "9u5vaitp": "xou5vbeg",
+        "4wnq2sr3": "7l6tbp6m",
+        "nuaqcstq": "ojnknzab",
+        "3txjj25d": "brb80xdk",
+        "dw88s2ev": "xo7yzacd",
+        "rrxgrbhx": "3pf90ntg"
+      },
+      "lights": 6,
+      "extraPartner": null
+    },
+    {
+      "id": "ick4y5gq",
+      "label": "Nacht 8",
+      "remoteNummer": 8,
+      "pairs": {
+        "6jmwb9d9": "brb80xdk",
+        "2fcxzwdo": "il9elcai",
+        "9u5vaitp": "xou5vbeg",
+        "3yqcudqz": "4km9qlec",
+        "6ya3eqcv": "ln171cc9",
+        "nuaqcstq": "2fdxm00i",
+        "4wnq2sr3": "7l6tbp6m",
+        "3txjj25d": "r0s7iww7",
+        "dw88s2ev": "xo7yzacd",
+        "rrxgrbhx": "3pf90ntg"
+      },
+      "lights": 5,
+      "extraPartner": null
+    },
+    {
+      "id": "7pbqhru6",
+      "label": "Nacht 9",
+      "remoteNummer": 9,
+      "pairs": {
+        "nuaqcstq": "xou5vbeg",
+        "3txjj25d": "r0s7iww7",
+        "6jmwb9d9": "ojnknzab",
+        "6ya3eqcv": "brb80xdk",
+        "3yqcudqz": "2fdxm00i",
+        "2fcxzwdo": "il9elcai",
+        "9u5vaitp": "4km9qlec",
+        "4wnq2sr3": "7l6tbp6m",
+        "dw88s2ev": "xo7yzacd",
+        "rrxgrbhx": "3pf90ntg"
+      },
+      "lights": 7,
+      "extraPartner": null
+    },
+    {
+      "id": "rsuj1pst",
+      "label": "Nacht 10",
+      "remoteNummer": 10,
+      "pairs": {
+        "3txjj25d": "r0s7iww7",
+        "3yqcudqz": "2fdxm00i",
+        "6ya3eqcv": "brb80xdk",
+        "9u5vaitp": "ln171cc9",
+        "nuaqcstq": "ojnknzab",
+        "6jmwb9d9": "4km9qlec",
+        "dw88s2ev": "xo7yzacd",
+        "rrxgrbhx": "3pf90ntg",
+        "4wnq2sr3": "7l6tbp6m",
+        "2fcxzwdo": "il9elcai"
+      },
+      "lights": 10,
+      "extraPartner": null
+    }
+  ],
+  "matchbox": [
+    {
+      "id": "pan59ciz",
+      "aId": "2fcxzwdo",
+      "bId": "brb80xdk",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "1"
+    },
+    {
+      "id": "0tcw1crb",
+      "aId": "3yqcudqz",
+      "bId": "il9elcai",
+      "isMatch": false,
+      "verkauft": true,
+      "episode": "2"
+    },
+    {
+      "id": "btoxkp6z",
+      "aId": "4wnq2sr3",
+      "bId": "4km9qlec",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "3"
+    },
+    {
+      "id": "4kcs6avs",
+      "aId": "rrxgrbhx",
+      "bId": "3pf90ntg",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "4"
+    },
+    {
+      "id": "cahlr5ul",
+      "aId": "dw88s2ev",
+      "bId": "xo7yzacd",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "5"
+    },
+    {
+      "id": "qtsuds60",
+      "aId": "3txjj25d",
+      "bId": "ojnknzab",
+      "isMatch": false,
+      "verkauft": true,
+      "episode": "6"
+    },
+    {
+      "id": "dsm1dk7r",
+      "aId": "6ya3eqcv",
+      "bId": "xou5vbeg",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "7"
+    },
+    {
+      "id": "35eovujv",
+      "aId": "2fcxzwdo",
+      "bId": "r0s7iww7",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "8"
+    },
+    {
+      "id": "fb2jlt6g",
+      "aId": "4wnq2sr3",
+      "bId": "7l6tbp6m",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "9"
+    },
+    {
+      "id": "njtsx316",
+      "aId": "2fcxzwdo",
+      "bId": "il9elcai",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "10"
+    },
+    {
+      "id": "nqxi2ija",
+      "aId": "6jmwb9d9",
+      "bId": "r0s7iww7",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "8"
+    }
+  ],
+  "doubleMatchIds": [
+    "3txjj25d"
+  ],
+  "nightDraft": null,
+  "mbDraft": {
+    "aId": "",
+    "bId": "",
+    "isMatch": true,
+    "verkauft": false,
+    "episode": "",
+    "editingId": null
+  },
+  "_pushedAt": "2026-08-25T06:59:55Z"
+}

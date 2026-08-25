@@ -1,0 +1,424 @@
+{
+  "groupAName": "Männer",
+  "groupBName": "Frauen",
+  "seasonInfo": {
+    "staffel": "2022"
+  },
+  "bench": [],
+  "groupA": [
+    {
+      "id": "rcbekxq2",
+      "name": "Barkin",
+      "photo": "cast/2022/barkin.jpg",
+      "notiz": "27, Duisburg, Erzieher",
+      "instagram": "https://www.instagram.com/barkin_cmrt/"
+    },
+    {
+      "id": "8e6fzcfc",
+      "name": "Burim",
+      "photo": "cast/2022/burim.jpg",
+      "notiz": "27, Schweiz, Maler",
+      "instagram": "https://www.instagram.com/burimzejnullahi/"
+    },
+    {
+      "id": "e1zh3cng",
+      "name": "Cris",
+      "photo": "cast/2022/cris.jpg",
+      "notiz": "26, Hamburg, Speditionskaufmann"
+    },
+    {
+      "id": "qhlmi1oh",
+      "name": "Deniz",
+      "photo": "cast/2022/deniz.jpg",
+      "notiz": "24, Innsbruck, selbstständig in Kommunikationsbranche",
+      "instagram": "https://www.instagram.com/deniz__topcu/"
+    },
+    {
+      "id": "ybst4o2w",
+      "name": "Joel",
+      "photo": "cast/2022/joel.jpg",
+      "notiz": "22, Recklinghausen, selbstständiger Vermögensberater",
+      "instagram": "https://www.instagram.com/joelkubitza/"
+    },
+    {
+      "id": "71vsxce9",
+      "name": "Ken",
+      "photo": "cast/2022/ken.jpg",
+      "notiz": "25, Mainz, Product Researcher",
+      "instagram": "https://www.instagram.com/tannedken/"
+    },
+    {
+      "id": "uy7vrgqe",
+      "name": "Kenneth",
+      "photo": "cast/2022/kenneth.jpg",
+      "notiz": "24, Hamburg, Finanzberater",
+      "instagram": "https://www.instagram.com/kenneth_nbs/"
+    },
+    {
+      "id": "e8fztzc0",
+      "name": "Marwin",
+      "photo": "cast/2022/marwin.jpg",
+      "notiz": "25, Hameln, Versicherungskaufmann",
+      "instagram": "https://www.instagram.com/marwin.klute/"
+    },
+    {
+      "id": "xns3wy7l",
+      "name": "Pascal",
+      "photo": "cast/2022/pascal.jpg",
+      "notiz": "23, Düsseldorf, Personaltrainer",
+      "instagram": "https://www.instagram.com/pascalkiehl_/"
+    },
+    {
+      "id": "8j72z69d",
+      "name": "Max",
+      "photo": "cast/2022/max.jpg",
+      "notiz": "28, Arnsberg, Berufskraftfahrer",
+      "instagram": "https://www.instagram.com/max_stiennon/"
+    },
+    {
+      "id": "1nyg4txb",
+      "name": "Sasa",
+      "photo": "cast/2022/sasa.jpg",
+      "notiz": "23, Berlin, Angestellter Familienunternehmen",
+      "instagram": "https://www.instagram.com/sasagatsby/?hl=de"
+    }
+  ],
+  "groupB": [
+    {
+      "id": "4ofgoezo",
+      "name": "Valeria",
+      "photo": "cast/2022/valeria.jpg",
+      "notiz": "22, Lahr, Industriekauffrau",
+      "instagram": "https://www.instagram.com/valee_122/"
+    },
+    {
+      "id": "fnx0jepm",
+      "name": "Stefanie",
+      "photo": "cast/2022/stefanie.jpg",
+      "notiz": "25, Augsburg, Selbstständige Gastronomin",
+      "instagram": "https://www.instagram.com/stefxniex/"
+    },
+    {
+      "id": "4wtp1ixl",
+      "name": "Vanessa",
+      "photo": "cast/2022/vanessa.jpg",
+      "notiz": "26, Hamburg, Erzieherin & Masseurin",
+      "instagram": "https://www.instagram.com/vanessita_x/?utm_medium=copy_link"
+    },
+    {
+      "id": "mbng2toy",
+      "name": "Larissa",
+      "photo": "cast/2022/larissa.jpg",
+      "notiz": "22, Stuttgart, Friseurin",
+      "instagram": "https://www.instagram.com/laaarissa_/?hl=de"
+    },
+    {
+      "id": "vrigclum",
+      "name": "Juliette",
+      "photo": "cast/2022/juliette.jpg",
+      "notiz": "21, Leipzig, Fitnesstrainerin",
+      "instagram": "https://www.instagram.com/juicyjuuly/"
+    },
+    {
+      "id": "7qed3z2b",
+      "name": "Henna",
+      "photo": "cast/2022/henna.jpg",
+      "notiz": "23, München, Studentin",
+      "instagram": "https://www.instagram.com/hennschka/?hl=de"
+    },
+    {
+      "id": "27o0pvcj",
+      "name": "D.",
+      "photo": "cast/2022/d.webp",
+      "notiz": "22"
+    },
+    {
+      "id": "50zit051",
+      "name": "Caroline",
+      "photo": "cast/2022/caroline.jpg",
+      "notiz": "21, Straubing, Schichtleiterin Einzelhandel, Alternativ-Match-Hinweis: 23",
+      "instagram": "https://www.instagram.com/carlielybra/"
+    },
+    {
+      "id": "f7hjqugo",
+      "name": "Carina",
+      "photo": "cast/2022/carina.jpg",
+      "notiz": "23, Bielefeld, Pflegekraft Altersheim",
+      "instagram": "https://www.instagram.com/carina.nl/"
+    },
+    {
+      "id": "zb0yve52",
+      "name": "Aurelia",
+      "photo": "cast/2022/aurelia.jpg",
+      "notiz": "25, Ulm, Vertrieblerin & Model"
+    }
+  ],
+  "nights": [
+    {
+      "id": "pd3v66ar",
+      "label": "Nacht 1",
+      "remoteNummer": 1,
+      "pairs": {
+        "1nyg4txb": "4wtp1ixl",
+        "71vsxce9": "f7hjqugo",
+        "uy7vrgqe": "7qed3z2b",
+        "8e6fzcfc": "vrigclum",
+        "ybst4o2w": "mbng2toy",
+        "qhlmi1oh": "zb0yve52",
+        "e8fztzc0": "27o0pvcj",
+        "8j72z69d": "4ofgoezo",
+        "e1zh3cng": "fnx0jepm",
+        "rcbekxq2": "50zit051"
+      },
+      "lights": 3,
+      "extraPartner": null
+    },
+    {
+      "id": "ocynz8nj",
+      "label": "Nacht 2",
+      "remoteNummer": 2,
+      "pairs": {
+        "ybst4o2w": "mbng2toy",
+        "rcbekxq2": "vrigclum",
+        "uy7vrgqe": "7qed3z2b",
+        "71vsxce9": "f7hjqugo",
+        "1nyg4txb": "4wtp1ixl",
+        "e1zh3cng": "fnx0jepm",
+        "e8fztzc0": "27o0pvcj",
+        "xns3wy7l": "4ofgoezo",
+        "8j72z69d": "50zit051",
+        "8e6fzcfc": "zb0yve52"
+      },
+      "lights": 3,
+      "extraPartner": null
+    },
+    {
+      "id": "kfify6ej",
+      "label": "Nacht 3",
+      "remoteNummer": 3,
+      "pairs": {
+        "uy7vrgqe": "zb0yve52",
+        "8j72z69d": "4ofgoezo",
+        "xns3wy7l": "50zit051",
+        "1nyg4txb": "f7hjqugo",
+        "e8fztzc0": "4wtp1ixl",
+        "qhlmi1oh": "27o0pvcj",
+        "ybst4o2w": "mbng2toy",
+        "rcbekxq2": "vrigclum",
+        "71vsxce9": "7qed3z2b",
+        "e1zh3cng": "fnx0jepm"
+      },
+      "lights": 2,
+      "extraPartner": null
+    },
+    {
+      "id": "ote9cvg9",
+      "label": "Nacht 4",
+      "remoteNummer": 4,
+      "pairs": {
+        "71vsxce9": "7qed3z2b",
+        "xns3wy7l": "f7hjqugo",
+        "1nyg4txb": "4wtp1ixl",
+        "qhlmi1oh": "mbng2toy",
+        "8e6fzcfc": "27o0pvcj",
+        "uy7vrgqe": "vrigclum",
+        "e8fztzc0": "zb0yve52",
+        "ybst4o2w": "4ofgoezo",
+        "8j72z69d": "50zit051",
+        "e1zh3cng": "fnx0jepm"
+      },
+      "lights": 3,
+      "extraPartner": null
+    },
+    {
+      "id": "rb62l96t",
+      "label": "Nacht 5",
+      "remoteNummer": 5,
+      "pairs": {
+        "1nyg4txb": "4wtp1ixl",
+        "rcbekxq2": "vrigclum",
+        "xns3wy7l": "f7hjqugo",
+        "uy7vrgqe": "7qed3z2b",
+        "e8fztzc0": "zb0yve52",
+        "8e6fzcfc": "27o0pvcj",
+        "ybst4o2w": "4ofgoezo",
+        "qhlmi1oh": "mbng2toy",
+        "71vsxce9": "50zit051",
+        "e1zh3cng": "fnx0jepm"
+      },
+      "lights": 4,
+      "extraPartner": null
+    },
+    {
+      "id": "ufdpzv3u",
+      "label": "Nacht 6",
+      "remoteNummer": 6,
+      "pairs": {
+        "ybst4o2w": "4wtp1ixl",
+        "1nyg4txb": "f7hjqugo",
+        "rcbekxq2": "vrigclum",
+        "uy7vrgqe": "7qed3z2b",
+        "qhlmi1oh": "27o0pvcj",
+        "e8fztzc0": "mbng2toy",
+        "8e6fzcfc": "zb0yve52",
+        "xns3wy7l": "4ofgoezo",
+        "71vsxce9": "50zit051",
+        "e1zh3cng": "fnx0jepm"
+      },
+      "lights": 3,
+      "extraPartner": null
+    },
+    {
+      "id": "maapypzs",
+      "label": "Nacht 7",
+      "remoteNummer": 7,
+      "pairs": {
+        "uy7vrgqe": "vrigclum",
+        "qhlmi1oh": "4wtp1ixl",
+        "rcbekxq2": "27o0pvcj",
+        "8e6fzcfc": "7qed3z2b",
+        "e8fztzc0": "f7hjqugo",
+        "ybst4o2w": "zb0yve52",
+        "xns3wy7l": "4ofgoezo",
+        "1nyg4txb": "mbng2toy",
+        "71vsxce9": "50zit051",
+        "e1zh3cng": "fnx0jepm"
+      },
+      "lights": 2,
+      "extraPartner": null
+    },
+    {
+      "id": "d3asffqv",
+      "label": "Nacht 8",
+      "remoteNummer": 8,
+      "pairs": {
+        "8e6fzcfc": "4ofgoezo",
+        "uy7vrgqe": "f7hjqugo",
+        "rcbekxq2": "vrigclum",
+        "xns3wy7l": "mbng2toy",
+        "qhlmi1oh": "7qed3z2b",
+        "ybst4o2w": "27o0pvcj",
+        "1nyg4txb": "4wtp1ixl",
+        "e8fztzc0": "zb0yve52",
+        "71vsxce9": "50zit051",
+        "e1zh3cng": "fnx0jepm"
+      },
+      "lights": 2,
+      "extraPartner": null
+    },
+    {
+      "id": "ekp1kn7x",
+      "label": "Nacht 9",
+      "remoteNummer": 9,
+      "pairs": {
+        "1nyg4txb": "27o0pvcj",
+        "e8fztzc0": "4wtp1ixl",
+        "xns3wy7l": "zb0yve52",
+        "uy7vrgqe": "7qed3z2b",
+        "8e6fzcfc": "vrigclum",
+        "rcbekxq2": "mbng2toy",
+        "ybst4o2w": "4ofgoezo",
+        "qhlmi1oh": "f7hjqugo",
+        "71vsxce9": "50zit051",
+        "e1zh3cng": "fnx0jepm"
+      },
+      "lights": 10,
+      "extraPartner": null
+    }
+  ],
+  "matchbox": [
+    {
+      "id": "n6ilob0z",
+      "aId": "e8fztzc0",
+      "bId": "4ofgoezo",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "1"
+    },
+    {
+      "id": "m3k51jdr",
+      "aId": "uy7vrgqe",
+      "bId": "27o0pvcj",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "2"
+    },
+    {
+      "id": "644lyf8c",
+      "aId": "8e6fzcfc",
+      "bId": "f7hjqugo",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "3"
+    },
+    {
+      "id": "tejg56q1",
+      "aId": "e1zh3cng",
+      "bId": "fnx0jepm",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "4"
+    },
+    {
+      "id": "kvkvnlnl",
+      "aId": "8j72z69d",
+      "bId": "4ofgoezo",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "5"
+    },
+    {
+      "id": "8dna1xuf",
+      "aId": "71vsxce9",
+      "bId": "50zit051",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "6"
+    },
+    {
+      "id": "7ihdzgfz",
+      "aId": "8e6fzcfc",
+      "bId": "27o0pvcj",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "7"
+    },
+    {
+      "id": "tcsg163v",
+      "aId": "ybst4o2w",
+      "bId": "vrigclum",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "8"
+    },
+    {
+      "id": "2c95124z",
+      "aId": "e8fztzc0",
+      "bId": "27o0pvcj",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "9"
+    },
+    {
+      "id": "xdbjva8a",
+      "aId": "xns3wy7l",
+      "bId": "27o0pvcj",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "10"
+    }
+  ],
+  "doubleMatchIds": [
+    "50zit051"
+  ],
+  "nightDraft": null,
+  "mbDraft": {
+    "aId": "",
+    "bId": "",
+    "isMatch": true,
+    "verkauft": false,
+    "episode": "",
+    "editingId": null
+  },
+  "_pushedAt": "2026-08-25T06:59:13Z"
+}

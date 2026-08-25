@@ -1,0 +1,492 @@
+{
+  "groupAName": "Männer",
+  "groupBName": "Frauen",
+  "seasonInfo": {
+    "staffel": "2025 (VIP)"
+  },
+  "bench": [],
+  "groupA": [
+    {
+      "id": "1jdys99x",
+      "name": "Nico",
+      "photo": "cast/2025-vip/nico.webp",
+      "notiz": "29, Hamburg, Flugzeuglackierer, bekannt aus: Make Love, Fake Love (2024)",
+      "zitat": "Ich bringe Charme und Stil in die Bude.",
+      "instagram": "https://www.instagram.com/nico_kllnr/"
+    },
+    {
+      "id": "z25arfyt",
+      "name": "Leandro",
+      "photo": "cast/2025-vip/leandro.webp",
+      "notiz": "24, Siegen, Fußballer, bekannt aus: Love Island VIP (2024), Love Island (2023)",
+      "zitat": "Bis jetzt war es mit den Frauen immer entweder zu wenig Feuer oder es hat lichterloh geknallt.",
+      "instagram": "https://www.instagram.com/leandro_fsn/"
+    },
+    {
+      "id": "t8s5b2do",
+      "name": "Jimmy Blue",
+      "photo": "cast/2025-vip/jimmy-blue.webp",
+      "notiz": "33, Schauspieler, bekannt aus: Die Verräter (2024), Die Ochsenknechts (2022), Die wilden Kerle (2003)",
+      "zitat": "Wenn ich merke, dass die nur Kontakt wollen, weil ich Jimi Blue bin – so  Gold Digger-Frauen, da stehe ich nicht drauf.",
+      "instagram": "https://www.instagram.com/jimbonader/"
+    },
+    {
+      "id": "4aqnglpv",
+      "name": "Xander",
+      "photo": "cast/2025-vip/xander.webp",
+      "notiz": "27, München, Barkeeper, bekannt aus: The 50 (2025), Make Love, Fake Love (2024)",
+      "zitat": "Ich mag es, wenn eine Frau auf mich zugeht.",
+      "instagram": "https://www.instagram.com/xander_stephinger/"
+    },
+    {
+      "id": "p79mm8wl",
+      "name": "Sidar",
+      "photo": "cast/2025-vip/sidar.webp",
+      "notiz": "26, Erfurt, Content Creator, bekannt aus: Prominent getrennt (2025)",
+      "zitat": "Ich bin jederzeit bereit für einen Streit.",
+      "instagram": "https://www.instagram.com/sidarsahin01/"
+    },
+    {
+      "id": "w47cpjz4",
+      "name": "Rob",
+      "photo": "cast/2025-vip/rob.webp",
+      "notiz": "29, Wien, Selbständig, bekannt aus: Love Island Polen (2024)",
+      "zitat": "Ich bin ein hoffnungsloser, altmodischer Romantiker.",
+      "instagram": "https://www.instagram.com/lordprettypanther/"
+    },
+    {
+      "id": "povgy03o",
+      "name": "Oliver",
+      "photo": "cast/2025-vip/oliver.webp",
+      "notiz": "27, Münster, Boxer, bekannt aus: Make Love, Fake Love (2025)",
+      "zitat": "Ich bin euer Sunny-Boy des Vertrauens.",
+      "instagram": "https://www.instagram.com/oliver.ginkel/"
+    },
+    {
+      "id": "1jw7ri13",
+      "name": "Lennert",
+      "photo": "cast/2025-vip/lennert.webp",
+      "notiz": "25, Hamburg, Influencer, bekannt aus: Too hot to Handle (2025)",
+      "zitat": "Mit mir kann man nicht streiten - ich bin streifunfähig.",
+      "instagram": "https://www.instagram.com/le99ert/"
+    },
+    {
+      "id": "yzuzjx1b",
+      "name": "Kevin",
+      "photo": "cast/2025-vip/kevin.webp",
+      "notiz": "29, Bremen, Influencer & Model, bekannt aus: Too Hot to Handle Germany (2023)",
+      "zitat": "Ich bin einer, der auch deepe Gespräche führen  kann.",
+      "instagram": "https://www.instagram.com/kevin.njie/"
+    },
+    {
+      "id": "3ugyrf1o",
+      "name": "Jonny",
+      "photo": "cast/2025-vip/jonny.webp",
+      "notiz": "32, Wuppertal, Selbständiger Gastronom, bekannt aus: Prominent getrennt (2025), Ex on the Beach (2023), Temptation Island (2022)",
+      "zitat": "Mit Eifersucht habe ich Null Probleme.",
+      "instagram": "https://www.instagram.com/jonnyjaspers/"
+    },
+    {
+      "id": "2r9svwdy",
+      "name": "Calvin S.",
+      "photo": "cast/2025-vip/calvin-s.webp",
+      "notiz": "24, Aachen, Influencer, bekannt aus: Germany Shore (2024)",
+      "zitat": "Ich bin der Quarterback - wie in amerikanischen High School Serien.",
+      "instagram": "https://www.instagram.com/calvinsteinerr/"
+    },
+    {
+      "id": "yqtrwr0c",
+      "name": "Calvin O.",
+      "photo": "cast/2025-vip/calvin-o.webp",
+      "notiz": "22, Hamburg, Model & Fußballer, bekannt aus: Too Hot to Handle Germany (2025)",
+      "zitat": "Ich bin ein extrovertierter Typ und gehe gerne All-in.",
+      "instagram": "https://www.instagram.com/calvinogara/"
+    }
+  ],
+  "groupB": [
+    {
+      "id": "fgtc59mf",
+      "name": "Viki",
+      "photo": "cast/2025-vip/viki.webp",
+      "notiz": "23, Bielefeld, Influencerin & Model, bekannt aus: Love Island VIP (2024)",
+      "zitat": "Ich bin witzig, dramatisch und eine kleine Diva.",
+      "instagram": "https://www.instagram.com/vikimlr/"
+    },
+    {
+      "id": "fk27r4mw",
+      "name": "Sandra",
+      "photo": "cast/2025-vip/sandra.webp",
+      "notiz": "25, Erfurt, Influencerin, bekannt aus: Love Island VIP (2024), Prominen getrennt (2022), Love Island (2020)",
+      "zitat": "Ich weiß, was ich wert bin.",
+      "instagram": "https://www.instagram.com/sandra_janina_/"
+    },
+    {
+      "id": "z6mr5m2x",
+      "name": "Nelly",
+      "photo": "cast/2025-vip/nelly.webp",
+      "notiz": "23, Hannover, Influencerin, bekannt aus: Beauty and the Nerd (2024)",
+      "zitat": "Mit mir hat man einfach nur einen Gewinn.",
+      "instagram": "https://www.instagram.com/nelnoire/"
+    },
+    {
+      "id": "b7iepbz4",
+      "name": "Joanna",
+      "photo": "cast/2025-vip/joanna.webp",
+      "notiz": "27, Stuttgart, Verkäuferin, bekannt aus: Are you the One? (2025)",
+      "zitat": "Ich passe auf, wen ich in mein Herz reinlasse.",
+      "instagram": "https://www.instagram.com/joanna.majolie/"
+    },
+    {
+      "id": "g497vj2b",
+      "name": "Antonia",
+      "photo": "cast/2025-vip/antonia.webp",
+      "notiz": "25, Dubai, Influencerin, bekannt aus: Germany Shore (2022)",
+      "zitat": "Ich werde allen Männern bei AYTO den Kopf verdrehen.",
+      "instagram": "https://www.instagram.com/antonia.rot/"
+    },
+    {
+      "id": "zczzgcwt",
+      "name": "Henna",
+      "photo": "cast/2025-vip/henna.webp",
+      "notiz": "26, München, Content Creatorin, bekannt aus: Are you the One? (2022)",
+      "zitat": "Ich will einen Mehrwert haben, dafür, dass ich meine Freiheit für einen Typen aufgebe.",
+      "instagram": "https://www.instagram.com/hennschka/"
+    },
+    {
+      "id": "fxq6pg78",
+      "name": "Hati",
+      "photo": "cast/2025-vip/hati.webp",
+      "notiz": "24, Hagen, Influencerin, bekannt aus: Kampf der Realitystars (2025), Fame Fighting (2024), Germany Shore (2022) u.a.",
+      "zitat": "Ich bin ein hopeless romantic girl",
+      "instagram": "https://www.instagram.com/hatisuarez/"
+    },
+    {
+      "id": "5wzyjcwc",
+      "name": "Elissia",
+      "photo": "cast/2025-vip/elissia.webp",
+      "notiz": "27, Leonberg, Kosmetikerin, bekannt aus: Ex on the Beach (2024)",
+      "zitat": "Ich bin nicht auf einen Mann angewiesen.",
+      "instagram": "https://www.instagram.com/elissia.lp/"
+    },
+    {
+      "id": "wepfcws4",
+      "name": "Beverly",
+      "photo": "cast/2025-vip/beverly.webp",
+      "notiz": "32, Österreich, Makeup Artist, bekannt aus: Ex on the Beach (2023), Forsthaus Rampensau (2023), Beauty & the Nerd (2023)",
+      "zitat": "Ich bin die, die hochgeht, wie ein Dampfkessel und danach heult.",
+      "instagram": "https://www.instagram.com/beverly.cmn/"
+    },
+    {
+      "id": "xpxltx0k",
+      "name": "Ariel",
+      "photo": "cast/2025-vip/ariel.webp",
+      "notiz": "22, Basel, Influencerin &  Mama, bekannt aus: Prominent getrennt (2025), The 50 (2024), Love Fool (2023)",
+      "zitat": "Ich warte nicht auf Karma - ich bin das Karma.",
+      "instagram": "https://www.instagram.com/_ariel__61/"
+    }
+  ],
+  "nights": [
+    {
+      "id": "night1vip25",
+      "label": "Nacht 1",
+      "remoteNummer": 1,
+      "pairs": {
+        "fgtc59mf": "z25arfyt",
+        "fxq6pg78": "yqtrwr0c",
+        "zczzgcwt": "3ugyrf1o",
+        "z6mr5m2x": "p79mm8wl",
+        "fk27r4mw": "yzuzjx1b",
+        "b7iepbz4": "w47cpjz4",
+        "xpxltx0k": "1jdys99x",
+        "g497vj2b": "1jw7ri13",
+        "5wzyjcwc": "4aqnglpv",
+        "wepfcws4": "2r9svwdy"
+      },
+      "lights": 2,
+      "extraPartner": null
+    },
+    {
+      "id": "night2vip25",
+      "label": "Nacht 2",
+      "remoteNummer": 2,
+      "pairs": {
+        "b7iepbz4": "2r9svwdy",
+        "z6mr5m2x": "w47cpjz4",
+        "fk27r4mw": "yzuzjx1b",
+        "xpxltx0k": "1jdys99x",
+        "wepfcws4": "p79mm8wl",
+        "zczzgcwt": "povgy03o",
+        "fxq6pg78": "yqtrwr0c",
+        "fgtc59mf": "z25arfyt",
+        "g497vj2b": "3ugyrf1o",
+        "5wzyjcwc": "4aqnglpv"
+      },
+      "lights": 2,
+      "extraPartner": null
+    },
+    {
+      "id": "night3vip25",
+      "label": "Nacht 3",
+      "remoteNummer": 3,
+      "pairs": {
+        "b7iepbz4": "2r9svwdy",
+        "g497vj2b": "povgy03o",
+        "wepfcws4": "1jdys99x",
+        "fgtc59mf": "3ugyrf1o",
+        "fxq6pg78": "w47cpjz4",
+        "fk27r4mw": "yzuzjx1b",
+        "zczzgcwt": "z25arfyt",
+        "z6mr5m2x": "1jw7ri13",
+        "xpxltx0k": "yqtrwr0c",
+        "5wzyjcwc": "4aqnglpv"
+      },
+      "lights": 2,
+      "extraPartner": null
+    },
+    {
+      "id": "night4vip25",
+      "label": "Nacht 4",
+      "remoteNummer": 4,
+      "pairs": {
+        "b7iepbz4": "2r9svwdy",
+        "z6mr5m2x": "yqtrwr0c",
+        "fk27r4mw": "z25arfyt",
+        "xpxltx0k": "1jdys99x",
+        "wepfcws4": "p79mm8wl",
+        "zczzgcwt": "1jw7ri13",
+        "fgtc59mf": "yzuzjx1b",
+        "fxq6pg78": "w47cpjz4",
+        "g497vj2b": "povgy03o",
+        "5wzyjcwc": "4aqnglpv"
+      },
+      "lights": 3,
+      "extraPartner": null
+    },
+    {
+      "id": "night5vip25",
+      "label": "Nacht 5",
+      "remoteNummer": 5,
+      "pairs": {
+        "zczzgcwt": "t8s5b2do",
+        "g497vj2b": "povgy03o",
+        "z6mr5m2x": "yqtrwr0c",
+        "fk27r4mw": "1jw7ri13",
+        "wepfcws4": "p79mm8wl",
+        "fxq6pg78": "w47cpjz4",
+        "b7iepbz4": "2r9svwdy",
+        "xpxltx0k": "1jdys99x",
+        "fgtc59mf": "yzuzjx1b",
+        "5wzyjcwc": "4aqnglpv"
+      },
+      "lights": 4,
+      "extraPartner": null
+    },
+    {
+      "id": "night6vip25",
+      "label": "Nacht 6",
+      "remoteNummer": 6,
+      "pairs": {
+        "zczzgcwt": "povgy03o",
+        "fxq6pg78": "t8s5b2do",
+        "wepfcws4": "z25arfyt",
+        "fgtc59mf": "3ugyrf1o",
+        "xpxltx0k": "yzuzjx1b",
+        "g497vj2b": "2r9svwdy",
+        "b7iepbz4": "p79mm8wl",
+        "z6mr5m2x": "yqtrwr0c",
+        "fk27r4mw": "1jw7ri13",
+        "5wzyjcwc": "4aqnglpv"
+      },
+      "lights": 4,
+      "extraPartner": null
+    },
+    {
+      "id": "night7vip25",
+      "label": "Nacht 7",
+      "remoteNummer": 7,
+      "pairs": {
+        "fxq6pg78": "3ugyrf1o",
+        "g497vj2b": "2r9svwdy",
+        "b7iepbz4": "p79mm8wl",
+        "z6mr5m2x": "w47cpjz4",
+        "xpxltx0k": "z25arfyt",
+        "zczzgcwt": "povgy03o",
+        "fgtc59mf": "yzuzjx1b",
+        "wepfcws4": "1jdys99x",
+        "fk27r4mw": "1jw7ri13",
+        "5wzyjcwc": "4aqnglpv"
+      },
+      "lights": 5,
+      "extraPartner": null
+    },
+    {
+      "id": "night8vip25",
+      "label": "Nacht 8",
+      "remoteNummer": 8,
+      "pairs": {
+        "zczzgcwt": "povgy03o",
+        "xpxltx0k": "yzuzjx1b",
+        "wepfcws4": "1jdys99x",
+        "fgtc59mf": "z25arfyt",
+        "fxq6pg78": "3ugyrf1o",
+        "g497vj2b": "2r9svwdy",
+        "z6mr5m2x": "w47cpjz4",
+        "b7iepbz4": "yqtrwr0c",
+        "5wzyjcwc": "4aqnglpv",
+        "fk27r4mw": "1jw7ri13"
+      },
+      "lights": 4,
+      "extraPartner": null
+    },
+    {
+      "id": "night9vip25",
+      "label": "Nacht 9",
+      "remoteNummer": 9,
+      "pairs": {
+        "z6mr5m2x": "yqtrwr0c",
+        "fgtc59mf": "w47cpjz4",
+        "zczzgcwt": "povgy03o",
+        "xpxltx0k": "z25arfyt",
+        "fxq6pg78": "yzuzjx1b",
+        "wepfcws4": "p79mm8wl",
+        "g497vj2b": "3ugyrf1o",
+        "b7iepbz4": "2r9svwdy",
+        "5wzyjcwc": "4aqnglpv",
+        "fk27r4mw": "1jw7ri13"
+      },
+      "lights": 4,
+      "extraPartner": null
+    },
+    {
+      "id": "night10vip25",
+      "label": "Nacht 10",
+      "remoteNummer": 10,
+      "pairs": {
+        "b7iepbz4": "w47cpjz4",
+        "g497vj2b": "2r9svwdy",
+        "zczzgcwt": "z25arfyt",
+        "fgtc59mf": "yzuzjx1b",
+        "wepfcws4": "1jdys99x",
+        "fxq6pg78": "p79mm8wl",
+        "xpxltx0k": "povgy03o",
+        "5wzyjcwc": "4aqnglpv",
+        "fk27r4mw": "1jw7ri13",
+        "z6mr5m2x": "yqtrwr0c"
+      },
+      "lights": 7,
+      "extraPartner": null
+    }
+  ],
+  "matchbox": [
+    {
+      "id": "mb0vip25",
+      "aId": "yzuzjx1b",
+      "bId": "fk27r4mw",
+      "isMatch": false,
+      "verkauft": true,
+      "episode": "1"
+    },
+    {
+      "id": "mb1vip25",
+      "aId": "4aqnglpv",
+      "bId": "5wzyjcwc",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "2"
+    },
+    {
+      "id": "mb2vip25",
+      "aId": "2r9svwdy",
+      "bId": "z6mr5m2x",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "3"
+    },
+    {
+      "id": "mb3vip25",
+      "aId": "3ugyrf1o",
+      "bId": "wepfcws4",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "4"
+    },
+    {
+      "id": "mb4vip25",
+      "aId": "z25arfyt",
+      "bId": "fk27r4mw",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "5"
+    },
+    {
+      "id": "mb5vip25",
+      "aId": "t8s5b2do",
+      "bId": "z6mr5m2x",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "6"
+    },
+    {
+      "id": "mb6vip25",
+      "aId": "1jw7ri13",
+      "bId": "fk27r4mw",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "7"
+    },
+    {
+      "id": "mb7vip25",
+      "aId": "povgy03o",
+      "bId": "g497vj2b",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "8"
+    },
+    {
+      "id": "mb8vip25",
+      "aId": "t8s5b2do",
+      "bId": "fxq6pg78",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "9"
+    },
+    {
+      "id": "mb9vip25",
+      "aId": "p79mm8wl",
+      "bId": "zczzgcwt",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "10"
+    },
+    {
+      "id": "mb10vip25",
+      "aId": "yqtrwr0c",
+      "bId": "z6mr5m2x",
+      "isMatch": true,
+      "verkauft": true,
+      "episode": "11"
+    },
+    {
+      "id": "mb11vip25",
+      "aId": "2r9svwdy",
+      "bId": "b7iepbz4",
+      "isMatch": false,
+      "verkauft": false,
+      "episode": "12"
+    }
+  ],
+  "doubleMatchIds": [
+    "wepfcws4",
+    "b7iepbz4"
+  ],
+  "nightDraft": null,
+  "mbDraft": {
+    "aId": "",
+    "bId": "",
+    "isMatch": true,
+    "verkauft": false,
+    "episode": "",
+    "editingId": null
+  },
+  "_pushedAt": "2026-08-25T06:59:46Z"
+}

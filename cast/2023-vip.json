@@ -1,0 +1,173 @@
+{
+  "staffel": "2023 (VIP)",
+  "kandidaten": [
+    {
+      "gruppe": "A",
+      "name": "Marvin",
+      "foto": "cast/2023-vip/marvin.webp",
+      "notiz": "28, Aachen, bekannt aus: Couple Challenge - Winter (2022), Swipe, Match, Love (2022)",
+      "zitat": "Eifersüchtige Frauen finde ich ganz cool.",
+      "instagram": "https://www.instagram.com/marvinkleinen/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Teezy",
+      "foto": "cast/2023-vip/teezy.webp",
+      "notiz": "28, Düsseldorf, Content Creator, bekannt aus: Ex on the Beach (2022)",
+      "zitat": "Ich bin cool und ein Gangster.",
+      "instagram": "https://www.instagram.com/kingmorteezy/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Steffen",
+      "foto": "cast/2023-vip/steffen.webp",
+      "notiz": "29, Bremen, Vertriebler, bekannt aus: Bachelorette (2022)",
+      "zitat": "Wer nicht wagt, gewinnt nicht.",
+      "instagram": "https://www.instagram.com/vogeno/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Stefanie",
+      "foto": "cast/2023-vip/stefanie.webp",
+      "notiz": "26, München, Selbständige Gastronomin, bekannt aus: Are you the one (2022)",
+      "zitat": "Ich würde diesmal offener sein und mehrere Männer kennenlernen.",
+      "instagram": "https://www.instagram.com/stefxniex/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Sandra",
+      "foto": "cast/2023-vip/sandra.webp",
+      "notiz": "31, Köln, Content Creatorin, bekannt aus: Temptation Island (2022), Couple Challenge (2022), Ex on the Beach (2021)",
+      "zitat": "Wenn ich merke, dass ein Typ sich anderweitig umschaut, verliere ich das Interesse.",
+      "instagram": "https://www.instagram.com/sandra.sicora/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Sabrina",
+      "foto": "cast/2023-vip/sabrina.webp",
+      "notiz": "26, Wien, Only Fans Model, bekannt aus: Bachelor Schweiz (2022), Are you the one (2021), Take me out (2020)",
+      "zitat": "Ich suche mir oft Männer aus, die mir nicht gerecht werden",
+      "instagram": "https://www.instagram.com/sabrinawlk/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Peter",
+      "foto": "cast/2023-vip/peter.webp",
+      "notiz": "25, Schweiz, Handballtorwart, bekannt aus: Germany Shore (2023), Bachelorette Schweiz (2022), Take me out (2017)",
+      "zitat": "Freundschaften mit Frauen finde ich eher schwierig.",
+      "instagram": "https://www.instagram.com/p.kujan/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Paulia",
+      "foto": "cast/2023-vip/paulia.webp",
+      "notiz": "21, Köln, Influencer, bekannt aus: Ex on the Beach (2022), Alternativ-Match-Hinweis: 17",
+      "zitat": "Wenn ich sage, ich mag keinen Streit, würde ich lügen.",
+      "instagram": "https://www.instagram.com/paulinapilch/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Paco",
+      "foto": "cast/2023-vip/paco.webp",
+      "notiz": "27, Hannover, Bademeister, bekannt aus: Kampf der Realitystars (2022), Love Island (2021)",
+      "zitat": "Ich bin seit dreieinhalb Jahren Single - aber da spalten sich die Meinungen.",
+      "instagram": "https://www.instagram.com/paco_hrb/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Mike",
+      "foto": "cast/2023-vip/mike.webp",
+      "notiz": "31, Essen, Inhaber Modelable LUXAGER, bekannt aus: Kampf der Realitystarts (2021), Ich bin ein Star - Dschungelshow (2021), Promi Ninja Warrior Germany (2020) u.a.",
+      "zitat": "Meine Frau darf nicht zu schlau sein.",
+      "instagram": "https://www.instagram.com/mikeheiter/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Max",
+      "foto": "cast/2023-vip/max.webp",
+      "notiz": "26, Köln, Influencer, bekannt aus: Make Love, Fake Love (2023)",
+      "zitat": "Ich habe keine Lust auf langweiligen Sex unter der Decke.",
+      "instagram": "https://www.instagram.com/max_bornmann/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Alicia",
+      "foto": "cast/2023-vip/alicia.webp",
+      "notiz": "29, München, Tänzerin, bekannt aus: Temptation Island (2021)",
+      "zitat": "Ich könnte nicht mein Leben lang Single sein.",
+      "instagram": "https://www.instagram.com/alicia.isa.belle/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Marie",
+      "foto": "cast/2023-vip/marie.webp",
+      "notiz": "26, Österreich, Bankberaterin, bekannt aus: Are you the one (2021)",
+      "zitat": "Männer verlieben sich oft in mich, aber ich mich nicht in sie.",
+      "instagram": "https://www.instagram.com/__mariemiller__/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Kim-Virginia",
+      "foto": "cast/2023-vip/kim-virginia.webp",
+      "notiz": "28, Miami, Content-Creatorin, bekannt aus: Bachelor in Paradise (2022), Bachelor (2021), Temptation Island (2021)",
+      "zitat": "Ich bin ein absolutes Unikat, eine Boss Lady.",
+      "instagram": "https://www.instagram.com/kimvirginiaa/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Jenny",
+      "foto": "cast/2023-vip/jenny.webp",
+      "notiz": "25, Köln, Influencer, bekannt aus: Love Island (2021)",
+      "zitat": "Ich bin so eine Flirtmaschine.",
+      "instagram": "https://www.instagram.com/jenniferdegenhart_/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Fabio",
+      "foto": "cast/2023-vip/fabio.webp",
+      "notiz": "30, München, Staubsaugervertreter, bekannt aus: Make Love Fake Love (2023)",
+      "zitat": "Ich habe oft Frauen, die älter sind als ich.",
+      "instagram": "https://www.instagram.com/fabioknez/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Emanuell",
+      "foto": "cast/2023-vip/emanuell.webp",
+      "notiz": "30, München, Eventmanager und Koch, bekannt aus: Bachelorette (2022), Bachelor in Paradise (2022)",
+      "zitat": "Ich war immer der Herzensbrecher.",
+      "instagram": "https://www.instagram.com/emanuell.wss/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Elia",
+      "foto": "cast/2023-vip/elia.webp",
+      "notiz": "30, Bayern, Singer / Songwriter / Model, bekannt aus: Germany Shore (2021)",
+      "zitat": "Ich würde nie mein Instagram löschen für eine Frau.",
+      "instagram": "https://www.instagram.com/eliaberthoud/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Darya",
+      "foto": "cast/2023-vip/darya.webp",
+      "notiz": "30, München, bekannt aus: Germanys Next Topmodel (2015)",
+      "zitat": "Ich bin ein materialistischer Mensch, stehe auf Designer und Luxus.",
+      "instagram": "https://www.instagram.com/darya/"
+    },
+    {
+      "gruppe": "A",
+      "name": "Danielo",
+      "foto": "cast/2023-vip/danielo.webp",
+      "notiz": "26, Baden-Württemberg, Schauspieler, bekannt aus: Germany Shore (2021), Love Island (2019)",
+      "zitat": "Tief im Herzen sehne ich mich nach einer tollen Frau, einer schönen Beziehung und hübschen Kindern.",
+      "instagram": "https://www.instagram.com/danilocristilli/"
+    },
+    {
+      "gruppe": "B",
+      "name": "Christina-Shakira",
+      "foto": "cast/2023-vip/christina-shakira.webp",
+      "notiz": "25, Kaiserslautern, Sport- und Fitnesskauffrau, bekannt aus: Bachelor (2022), Bachelor in Paradise (2022)",
+      "zitat": "Mein Partner muss das Geld nach Hause bringen.",
+      "instagram": "https://www.instagram.com/christinashakira/"
+    }
+  ]
+}
