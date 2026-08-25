@@ -438,30 +438,6 @@
       "isMatch": true,
       "verkauft": false,
       "episode": "9"
-    },
-    {
-      "id": "mb10vip23",
-      "aId": "rzd4ksg2",
-      "bId": "wpevfvck",
-      "isMatch": true,
-      "verkauft": false,
-      "episode": "10"
-    },
-    {
-      "id": "mb11vip23",
-      "aId": "qppvhs5n",
-      "bId": "qbscjuu3",
-      "isMatch": true,
-      "verkauft": false,
-      "episode": "10"
-    },
-    {
-      "id": "mb12vip23",
-      "aId": "upq6ojpn",
-      "bId": "ki6evh9x",
-      "isMatch": true,
-      "verkauft": false,
-      "episode": "10"
     }
   ],
   "doubleMatchIds": [],
@@ -474,5 +450,5 @@
     "episode": "",
     "editingId": null
   },
-  "_pushedAt": "2026-08-25T16:17:04Z"
+  "_pushedAt": "2026-08-25T16:17:08Z"
 }
