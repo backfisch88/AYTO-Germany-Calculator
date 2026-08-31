@@ -13,7 +13,7 @@
 <meta name="apple-mobile-web-app-title" content="AYTO-Germany-Calculator">
 <script>
   (function () {
-    var CURRENT_BUILD = "2026-08-31-v10-hero-result-emphasis";
+    var CURRENT_BUILD = "2026-08-31-v11-warm-summer-redesign";
     var checking = false;
     function checkForUpdate() {
       if (checking) return;
@@ -41,7 +41,26 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <style>
-  :root { --ease-out: cubic-bezier(0.23, 1, 0.32, 1); }
+  :root {
+    --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+    --bg: #FFFCF6;
+    --surface: #FBF3E6;
+    --surface-strong: #F3E9D6;
+    --surface-tint: #FFF8EA;
+    --border: #EAD9B8;
+    --ink: #2B241C;
+    --ink-soft: #5C5142;
+    --muted: #86795F;
+    --faint: #A79A7C;
+    --blue: #14ABE0;
+    --pink: #E0227A;
+    --pink-soft: #FCEAF1;
+    --pink-line: #F0A8C6;
+    --gold: #F2B705;
+    --amber: #B8860B;
+    --green: #3F9142;
+    --red: #C81E3A;
+  }
   * { box-sizing: border-box; }
   body { margin: 0; }
   button { font: inherit; color: inherit; background: none; border: none; padding: 0; cursor: pointer; -webkit-tap-highlight-color: transparent; }
@@ -49,7 +68,7 @@
   a { color: inherit; }
   .display-font { font-family: 'Anton', sans-serif; }
   .mono-font { font-family: 'JetBrains Mono', monospace; }
-  ::selection { background: #E0227A; color: #0E0A12; }
+  ::selection { background: #E0227A; color: #FFF8EA; }
   .glow-pulse { animation: glowPulse 2.2s ease-in-out infinite; filter: drop-shadow(0 0 6px #F2B70599); }
   @keyframes glowPulse { 0%,100% { opacity: 0.5; } 50% { opacity: 1; } }
   .fade-in { animation: fadeIn 260ms var(--ease-out); }
@@ -314,7 +333,7 @@ function SectionLabel({ children, icon, right }) {
   return h("div", { style: { display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 } },
     h("div", { style: { display: "flex", alignItems: "center", gap: 8 } },
       icon && h(Icon, { name: icon, size: 15, style: { color: "#14ABE0" } }),
-      h("h2", { style: { letterSpacing: "0.18em", fontSize: 11, textTransform: "uppercase", color: "#726B85", margin: 0, fontWeight: 400 } }, children)
+      h("h2", { style: { letterSpacing: "0.18em", fontSize: 11, textTransform: "uppercase", color: "var(--muted)", margin: 0, fontWeight: 400 } }, children)
     ),
     right || null
   );
@@ -540,55 +559,56 @@ function App() {
   }, [state, result]);
 
   if (!loaded) {
-    return h("div", { style: { minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 16, fontFamily: "Inter, sans-serif" } },
-      h("div", { className: "boot-spin", style: { width: 40, height: 40, borderRadius: "50%", border: "4px solid #E7E1F0", borderTopColor: "#E0227A" } }),
-      h("p", { className: "text-sm", style: { color: "#726B85" } }, "Lädt …")
+    return h("div", { style: { minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 16, fontFamily: "Inter, sans-serif", background: "var(--bg)" } },
+      h("div", { className: "boot-spin", style: { width: 40, height: 40, borderRadius: "50%", border: "4px solid var(--border)", borderTopColor: "var(--pink)" } }),
+      h("p", { className: "text-sm", style: { color: "var(--muted)" } }, "Lädt …")
     );
   }
 
   if (loadError && !state) {
-    return h("div", { style: { minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Inter, sans-serif", padding: 24, textAlign: "center" } },
-      h("p", { style: { color: "#C81E3A", maxWidth: 420 } }, loadError)
+    return h("div", { style: { minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Inter, sans-serif", padding: 24, textAlign: "center", background: "var(--bg)" } },
+      h("p", { style: { color: "var(--red)", maxWidth: 420 } }, loadError)
     );
   }
 
   const label = k => k === "A" ? state.groupAName : state.groupBName;
+  const groupColor = k => k === "A" ? "var(--blue)" : "var(--pink)";
 
-  return h("div", { style: { background: "#FFFFFF", minHeight: "100vh", fontFamily: "Inter, sans-serif", color: "#241D33" } },
+  return h("div", { style: { background: "var(--bg)", minHeight: "100vh", fontFamily: "Inter, sans-serif", color: "var(--ink)" } },
     // Header
-    h("header", { style: { borderBottom: "1px solid #ECE6F5", background: "radial-gradient(ellipse at top left, rgba(20,171,224,0.10), transparent 55%), radial-gradient(ellipse at top right, rgba(224,34,122,0.09), transparent 55%)" } },
-      h("div", { style: { maxWidth: 1100, margin: "0 auto", padding: "40px 20px 30px" } },
-        h("div", { className: "flex items-center gap-2 mb-2", style: { display: "flex", alignItems: "center", gap: 8, marginBottom: 8 } },
-          h(Icon, { name: "lightbulb", size: 16, className: "glow-pulse", style: { color: "#F2B705" } }),
-          h("span", { style: { fontSize: 11, textTransform: "uppercase", letterSpacing: "0.3em", color: "#726B85" } }, "Matching-Night Vorausberechnung")
+    h("header", { style: { borderBottom: "1px solid var(--border)", background: "radial-gradient(ellipse at top left, rgba(20,171,224,0.12), transparent 55%), radial-gradient(ellipse at top right, rgba(224,34,122,0.11), transparent 55%)" } },
+      h("div", { style: { maxWidth: 1100, margin: "0 auto", padding: "44px 20px 32px" } },
+        h("div", { className: "flex items-center gap-2 mb-2", style: { display: "flex", alignItems: "center", gap: 8, marginBottom: 10 } },
+          h(Icon, { name: "lightbulb", size: 16, className: "glow-pulse", style: { color: "var(--gold)" } }),
+          h("span", { style: { fontSize: 11, textTransform: "uppercase", letterSpacing: "0.18em", color: "var(--muted)" } }, "Matching-Night Vorausberechnung")
         ),
-        h("div", { style: { marginBottom: 12, transform: "rotate(-1.5deg)", transformOrigin: "left center" } },
+        h("div", { style: { marginBottom: 14, transform: "rotate(-1.5deg)", transformOrigin: "left center" } },
           !logoError
             ? h("img", { src: "logo.png", alt: "Are You The One?", onError: () => setLogoError(true), style: { height: 76, display: "block" } })
             : h("div", { style: { display: "inline-block" } },
-                h("div", { className: "display-font", style: { textTransform: "uppercase", background: "#14ABE0", color: "#fff", padding: "6px 20px", fontSize: 34, lineHeight: 0.95, letterSpacing: "0.02em" } }, "Are You"),
-                h("div", { className: "display-font", style: { textTransform: "uppercase", background: "#E0227A", color: "#fff", padding: "6px 20px", fontSize: 34, lineHeight: 0.95, letterSpacing: "0.02em", marginTop: -2, marginLeft: 10 } }, "The One?")
+                h("div", { className: "display-font", style: { textTransform: "uppercase", background: "var(--blue)", color: "#fff", padding: "6px 20px", fontSize: 34, lineHeight: 0.95, letterSpacing: "0.02em" } }, "Are You"),
+                h("div", { className: "display-font", style: { textTransform: "uppercase", background: "var(--pink)", color: "#fff", padding: "6px 20px", fontSize: 34, lineHeight: 0.95, letterSpacing: "0.02em", marginTop: -2, marginLeft: 10 } }, "The One?")
               )
         ),
-        h("p", { style: { marginTop: 4, fontSize: 14, color: "#584F6E" } },
+        h("p", { style: { marginTop: 4, fontSize: 14, color: "var(--ink-soft)" } },
           (state.seasonInfo && state.seasonInfo.staffel) || "Perfect-Match-Rechner", " ",
           (nA || nB) ? `· ${nA + nB} aktiv${state.bench.length ? ` + ${state.bench.length} Ersatzbank` : ""}` : ""
         ),
-        staffelStand && h("p", { style: { marginTop: 2, fontSize: 12, color: "#726B85" } }, staffelStand),
-        h("div", { style: { display: "flex", flexWrap: "wrap", alignItems: "center", gap: 10, marginTop: 18 } },
+        staffelStand && h("p", { style: { marginTop: 2, fontSize: 12, color: "var(--muted)" } }, staffelStand),
+        h("div", { style: { display: "flex", flexWrap: "wrap", alignItems: "center", gap: 10, marginTop: 20 } },
           availableCasts.length > 1 && h("select", {
             value: selectedCast || "",
             onChange: e => switchSeason(e.target.value),
-            style: { fontSize: 12, padding: "8px 14px", borderRadius: 999, fontWeight: 500, background: "#14ABE0", color: "#fff", border: "none" }
+            style: { fontSize: 12, padding: "8px 14px", borderRadius: 999, fontWeight: 500, background: "var(--blue)", color: "#fff", border: "none" }
           }, availableCasts.map(f => h("option", { key: f, value: f },
             f.replace(/\.json$/i, "").replace(/[-_]/g, " ").replace(/\b\w/g, c => c.toUpperCase())
           ))),
           h("button", {
             onClick: () => loadSeason(selectedCast),
-            style: { fontSize: 12, padding: "8px 14px", borderRadius: 999, border: "1px solid #DAD2EC", color: "#584F6E", background: "transparent", cursor: "pointer" }
+            style: { fontSize: 12, padding: "8px 14px", borderRadius: 999, border: "1px solid var(--border)", color: "var(--ink-soft)", background: "transparent", cursor: "pointer" }
           }, h(Icon, { name: "refresh-cw", size: 12 }), " Jetzt aktualisieren")
         ),
-        h("p", { style: { fontSize: 11, marginTop: 10, color: "#948C9E" } },
+        h("p", { style: { fontSize: 11, marginTop: 10, color: "var(--faint)" } },
           pushedAtLabel ? `Letzter Datensatz vom ${pushedAtLabel} · ` : "",
           "Browser hat zuletzt geprüft um ", lastUpdated ? lastUpdated.toLocaleTimeString("de-DE") : "–",
           " (alle 25s)"
@@ -598,7 +618,7 @@ function App() {
 
     // Perfect Matches Banner
     perfectMatches.length > 0 && h("div", { style: { maxWidth: 1100, margin: "0 auto", padding: "24px 20px 0" } },
-      h("p", { style: { textTransform: "uppercase", letterSpacing: "0.18em", fontSize: 11, marginBottom: 8, display: "flex", alignItems: "center", gap: 8, color: "#E0227A" } }, "♥ Perfect Matches"),
+      h("p", { style: { textTransform: "uppercase", letterSpacing: "0.18em", fontSize: 11, marginBottom: 8, display: "flex", alignItems: "center", gap: 8, color: "var(--pink)" } }, "♥ Perfect Matches"),
       h("div", { style: { display: "flex", flexWrap: "wrap", gap: 8 } },
         perfectMatches.map((m, i) => {
           const isLikely = m.source === "wahrscheinlich";
@@ -606,16 +626,16 @@ function App() {
             key: i,
             style: {
               display: "flex", alignItems: "center", gap: 8, padding: "6px 12px", borderRadius: 999, fontSize: 14,
-              background: isLikely ? "transparent" : "#FCE7F1",
-              border: isLikely ? "1px dashed #F0A8C6" : "none", color: "#241D33"
+              background: isLikely ? "transparent" : "var(--pink-soft)",
+              border: isLikely ? "1px dashed var(--pink-line)" : "none", color: "var(--ink)"
             }
           },
             h(Avatar, { name: m.aName, photo: m.aPhoto, size: 22 }),
             h("span", { style: { fontWeight: 500 } }, m.aName),
-            h(Icon, { name: "heart", size: 12, fill: "#E0227A", style: { color: "#E0227A" } }),
+            h(Icon, { name: "heart", size: 12, fill: "#E0227A", style: { color: "var(--pink)" } }),
             h("span", { style: { fontWeight: 500 } }, m.bName),
             h(Avatar, { name: m.bName, photo: m.bPhoto, size: 22 }),
-            m.source === "berechnet" && h("span", { style: { fontSize: 10, marginLeft: 4, color: "#948C9E" } }, "berechnet"),
+            m.source === "berechnet" && h("span", { style: { fontSize: 10, marginLeft: 4, color: "var(--faint)" } }, "berechnet"),
             isLikely && h("span", { style: { fontSize: 10, marginLeft: 4, color: "#B0679A" } }, m.pct, "% wahrscheinlich")
           );
         })
@@ -630,8 +650,9 @@ function App() {
         h("div", { style: { display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 16 } },
           ["A", "B"].map(g => {
             const key = g === "A" ? "groupA" : "groupB";
-            return h("div", { key: g, style: { borderRadius: 16, padding: 16, background: "#F7F5FC", border: "1px solid #E7E1F0" } },
-              h("div", { style: { fontSize: 14, fontWeight: 600, marginBottom: 12, color: "#E0227A" } }, label(g)),
+            const accent = groupColor(g);
+            return h("div", { key: g, style: { borderRadius: 16, padding: 16, background: "var(--surface)", border: "1px solid var(--border)" } },
+              h("div", { style: { fontSize: 14, fontWeight: 600, marginBottom: 12, color: accent } }, label(g)),
               h("div", { style: { display: "flex", flexDirection: "column", gap: 4, marginBottom: 8 } },
                 state[key].map(p => {
                   const { confirmed, excluded } = factsFor(p.id);
@@ -645,22 +666,22 @@ function App() {
                       h("div", { style: { minWidth: 0, flex: 1, paddingTop: isOpen ? 4 : 6, transition: "padding-top 220ms var(--ease-out)" } },
                         h("div", { style: { display: "flex", alignItems: "center", gap: 6 } },
                           h("span", { style: { fontSize: 14 } }, p.name),
-                          h(Icon, { name: isOpen ? "chevron-up" : "chevron-down", size: 13, style: { color: "#948C9E" } })
+                          h(Icon, { name: isOpen ? "chevron-up" : "chevron-down", size: 13, style: { color: "var(--faint)" } })
                         ),
-                        isOpen && p.zitat && h("div", { style: { fontSize: 12, fontStyle: "italic", marginTop: 2, color: "#B8860B" } }, '"', p.zitat, '"')
+                        isOpen && p.zitat && h("div", { style: { fontSize: 12, fontStyle: "italic", marginTop: 2, color: "var(--amber)" } }, '"', p.zitat, '"')
                       )
                     ),
                     isOpen && h("div", { className: "fade-in", style: { paddingLeft: 88, paddingRight: 8, marginTop: 4 } },
-                      p.notiz && h("div", { style: { fontSize: 12, marginBottom: 4, color: "#726B85" } }, p.notiz),
-                      p.instagram && h("a", { href: p.instagram, target: "_blank", rel: "noopener noreferrer", style: { fontSize: 12, display: "inline-flex", alignItems: "center", gap: 4, marginBottom: 4, color: "#14ABE0" } }, h(Icon, { name: "arrow-right-circle", size: 11 }), "Instagram öffnen"),
-                      confirmed.length > 0 && confirmed.map(c => h("div", { key: c.id, style: { fontSize: 12, display: "flex", alignItems: "center", gap: 4, marginBottom: 2, color: "#E0227A" } }, h(Icon, { name: "heart", size: 11, fill: "#E0227A" }), "Perfect Match: ", nameOf(c.aId === p.id ? c.bId : c.aId))),
-                      excluded.length > 0 && h("div", { style: { fontSize: 12, color: "#C81E3A" } }, "Kein Match: ", excluded.map(e => nameOf(e.aId === p.id ? e.bId : e.aId)).join(", ")),
-                      !p.notiz && confirmed.length === 0 && excluded.length === 0 && h("div", { style: { fontSize: 12, color: "#948C9E" } }, "Noch nichts bekannt")
+                      p.notiz && h("div", { style: { fontSize: 12, marginBottom: 4, color: "var(--muted)" } }, p.notiz),
+                      p.instagram && h("a", { href: p.instagram, target: "_blank", rel: "noopener noreferrer", style: { fontSize: 12, display: "inline-flex", alignItems: "center", gap: 4, marginBottom: 4, color: "var(--blue)" } }, h(Icon, { name: "arrow-right-circle", size: 11 }), "Instagram öffnen"),
+                      confirmed.length > 0 && confirmed.map(c => h("div", { key: c.id, style: { fontSize: 12, display: "flex", alignItems: "center", gap: 4, marginBottom: 2, color: "var(--pink)" } }, h(Icon, { name: "heart", size: 11, fill: "#E0227A" }), "Perfect Match: ", nameOf(c.aId === p.id ? c.bId : c.aId))),
+                      excluded.length > 0 && h("div", { style: { fontSize: 12, color: "var(--red)" } }, "Kein Match: ", excluded.map(e => nameOf(e.aId === p.id ? e.bId : e.aId)).join(", ")),
+                      !p.notiz && confirmed.length === 0 && excluded.length === 0 && h("div", { style: { fontSize: 12, color: "var(--faint)" } }, "Noch nichts bekannt")
                     )
                   );
                 })
               ),
-              state[key].length === 0 && h("p", { style: { fontSize: 12, color: "#948C9E" } }, "Noch niemand eingetragen.")
+              state[key].length === 0 && h("p", { style: { fontSize: 12, color: "var(--faint)" } }, "Noch niemand eingetragen.")
             );
           })
         )
@@ -670,11 +691,11 @@ function App() {
       state.bench.length > 0 && h("section", null,
         h(SectionLabel, { icon: "armchair" }, "Ersatzbank & Nachrücker"),
         h("div", { style: { display: "flex", flexDirection: "column", gap: 8 } },
-          state.bench.map(p => h("div", { key: p.id, style: { display: "flex", alignItems: "center", gap: 12, padding: "8px 12px", borderRadius: 12, background: "#F7F5FC", border: "1px solid #E7E1F0" } },
+          state.bench.map(p => h("div", { key: p.id, style: { display: "flex", alignItems: "center", gap: 12, padding: "8px 12px", borderRadius: 12, background: "var(--surface)", border: "1px solid var(--border)" } },
             h(Avatar, { name: p.name, photo: p.photo, size: 32 }),
             h("div", { style: { flex: 1, minWidth: 0 } },
               h("div", { style: { fontSize: 14 } }, p.name),
-              p.notiz && h("div", { style: { fontSize: 10, color: "#948C9E" } }, p.notiz)
+              p.notiz && h("div", { style: { fontSize: 10, color: "var(--faint)" } }, p.notiz)
             )
           ))
         )
@@ -684,7 +705,7 @@ function App() {
       h("section", null,
         h(SectionLabel, { icon: "lightbulb" }, "Matching Nights"),
         state.nights.length === 0
-          ? h("p", { style: { fontSize: 12, color: "#948C9E" } }, "Noch keine Matching Night eingetragen.")
+          ? h("p", { style: { fontSize: 12, color: "var(--faint)" } }, "Noch keine Matching Night eingetragen.")
           : h("div", { style: { display: "flex", flexDirection: "column", gap: 8 } },
               state.nights.map(night => {
                 const nA_ = state.groupA.length, nB_ = state.groupB.length;
@@ -692,16 +713,16 @@ function App() {
                 const bigKey = smallKey === "groupA" ? "groupB" : "groupA";
                 const smallArr = state[smallKey], bigArr = state[bigKey];
                 const isOpen = expandedNight === night.id;
-                return h("div", { key: night.id, style: { borderRadius: 12, overflow: "hidden", background: "#F7F5FC", border: "1px solid #E7E1F0" } },
+                return h("div", { key: night.id, style: { borderRadius: 12, overflow: "hidden", background: "var(--surface)", border: "1px solid var(--border)" } },
                   h("div", {
                     onClick: () => setExpandedNight(isOpen ? null : night.id),
                     style: { display: "flex", alignItems: "center", justifyContent: "space-between", padding: "12px 16px", cursor: "pointer" }
                   },
                     h("div", { style: { display: "flex", alignItems: "center", gap: 12 } },
                       h("span", { style: { fontSize: 14, fontWeight: 500 } }, night.label),
-                      h("span", { className: "mono-font", style: { fontSize: 12, padding: "2px 8px", borderRadius: 999, background: "#E7E1F0", color: "#F2B705", display: "inline-flex", alignItems: "center", gap: 4 } }, h(Icon, { name: "lightbulb", size: 11 }), " ", night.lights, " Lichter")
+                      h("span", { className: "mono-font", style: { fontSize: 12, padding: "2px 8px", borderRadius: 999, background: "var(--surface-strong)", color: "var(--gold)", display: "inline-flex", alignItems: "center", gap: 4 } }, h(Icon, { name: "lightbulb", size: 11 }), " ", night.lights, " Lichter")
                     ),
-                    h(Icon, { name: isOpen ? "chevron-up" : "chevron-down", size: 14, style: { color: "#948C9E" } })
+                    h(Icon, { name: isOpen ? "chevron-up" : "chevron-down", size: 14, style: { color: "var(--faint)" } })
                   ),
                   isOpen && h("div", { className: "fade-in", style: { padding: "0 16px 12px", display: "flex", flexDirection: "column", gap: 4 } },
                     smallArr.map(s => {
@@ -714,8 +735,8 @@ function App() {
                       const reversePartner = directPartner ? null : Object.entries(night.pairs).find(([k, v]) => v === s.id)?.[0];
                       const partnerIds = [directPartner || reversePartner, night.extraPartner && night.extraPartner.smallId === s.id ? night.extraPartner.bigId : null].filter(Boolean);
                       const names = partnerIds.map(pid => (bigArr.find(x => x.id === pid) || {}).name).filter(Boolean);
-                      return h("div", { key: s.id, style: { fontSize: 12, display: "flex", alignItems: "center", gap: 8, color: "#726B85" } },
-                        h("span", null, s.name), h("span", { style: { color: "#948C9E" } }, "+"), h("span", null, names.length ? names.join(" & ") : "—")
+                      return h("div", { key: s.id, style: { fontSize: 12, display: "flex", alignItems: "center", gap: 8, color: "var(--muted)" } },
+                        h("span", null, s.name), h("span", { style: { color: "var(--faint)" } }, "+"), h("span", null, names.length ? names.join(" & ") : "—")
                       );
                     })
                   )
@@ -727,28 +748,28 @@ function App() {
       // Doppel-Match-Twist (nur falls aktiv)
       (state.doubleMatchIds || []).length > 0 && h("section", null,
         h(SectionLabel, { icon: "heart" }, "Doppel-Match-Twist"),
-        h("p", { style: { fontSize: 12, color: "#726B85" } }, "Aktiv für: ", state.doubleMatchIds.map(id => nameOf(id)).join(", "))
+        h("p", { style: { fontSize: 12, color: "var(--muted)" } }, "Aktiv für: ", state.doubleMatchIds.map(id => nameOf(id)).join(", "))
       ),
 
       // Matchbox
       h("section", null,
         h(SectionLabel, { icon: "lock" }, "Matchbox-Ergebnisse"),
         state.matchbox.length === 0
-          ? h("p", { style: { fontSize: 12, color: "#948C9E" } }, "Noch keine Matchbox-Ergebnisse eingetragen.")
+          ? h("p", { style: { fontSize: 12, color: "var(--faint)" } }, "Noch keine Matchbox-Ergebnisse eingetragen.")
           : h("div", { style: { display: "flex", flexDirection: "column", gap: 8 } },
               state.matchbox.map(tb => {
                 const a = [...state.groupA, ...state.groupB].find(p => p.id === tb.aId);
                 const b = [...state.groupA, ...state.groupB].find(p => p.id === tb.bId);
-                return h("div", { key: tb.id, style: { display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12, padding: "10px 16px", borderRadius: 12, background: "#F7F5FC", border: "1px solid #E7E1F0" } },
+                return h("div", { key: tb.id, style: { display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12, padding: "10px 16px", borderRadius: 12, background: "var(--surface)", border: "1px solid var(--border)" } },
                   h("div", { style: { minWidth: 0, flex: 1 } },
                     h("div", { style: { fontSize: 14 } }, (a && a.name) || "?", " + ", (b && b.name) || "?"),
-                    tb.episode && h("div", { style: { fontSize: 10, color: "#948C9E" } }, "Folge ", tb.episode)
+                    tb.episode && h("div", { style: { fontSize: 10, color: "var(--faint)" } }, "Folge ", tb.episode)
                   ),
                   tb.isMatch
-                    ? h("span", { className: "heart-glow", style: { fontSize: 12, display: "flex", alignItems: "center", gap: 4, color: "#E0227A" } }, h(Icon, { name: "heart", size: 13, fill: "#E0227A" }), "Perfect Match")
+                    ? h("span", { className: "heart-glow", style: { fontSize: 12, display: "flex", alignItems: "center", gap: 4, color: "var(--pink)" } }, h(Icon, { name: "heart", size: 13, fill: "#E0227A" }), "Perfect Match")
                     : tb.verkauft
-                      ? h("span", { style: { fontSize: 12, display: "flex", alignItems: "center", gap: 4, color: "#B8860B" } }, h(Icon, { name: "cloud-upload", size: 13 }), "Verkauft")
-                      : h("span", { style: { fontSize: 12, display: "flex", alignItems: "center", gap: 4, color: "#C81E3A" } }, h(Icon, { name: "x", size: 13 }), "Kein Match")
+                      ? h("span", { style: { fontSize: 12, display: "flex", alignItems: "center", gap: 4, color: "var(--amber)" } }, h(Icon, { name: "cloud-upload", size: 13 }), "Verkauft")
+                      : h("span", { style: { fontSize: 12, display: "flex", alignItems: "center", gap: 4, color: "var(--red)" } }, h(Icon, { name: "x", size: 13 }), "Kein Match")
                 );
               })
             )
@@ -758,26 +779,26 @@ function App() {
       h("section", null,
         h(SectionLabel, {
           icon: "calculator",
-          right: computing ? h("span", { style: { fontSize: 12, display: "flex", alignItems: "center", gap: 6, color: "#726B85" } }, h(Icon, { name: "refresh-cw", size: 12, className: "spin" }), " berechnet…") : null
+          right: computing ? h("span", { style: { fontSize: 12, display: "flex", alignItems: "center", gap: 6, color: "var(--muted)" } }, h(Icon, { name: "refresh-cw", size: 12, className: "spin" }), " berechnet…") : null
         }, "Vorausberechnung"),
         result && result.error && h("p", { style: { fontSize: 14, padding: "12px 16px", borderRadius: 12, background: "rgba(200,30,58,0.1)", border: "1px solid rgba(200,30,58,0.35)", color: "#D6336C" } }, result.error),
-        !result && ready && state.nights.length === 0 && state.matchbox.length === 0 && h("p", { style: { fontSize: 14, padding: "12px 16px", borderRadius: 12, background: "#F7F5FC", border: "1px solid #E7E1F0", color: "#726B85" } }, "Noch keine Matching Night oder Matchbox-Eintrag vorhanden."),
-        result && !result.error && result.matrix.length === state.groupA.length && (result.matrix[0] || []).length === state.groupB.length && h("div", { className: "fade-in", style: { borderRadius: 16, border: "1.5px solid #14ABE0", padding: 16, background: "#FAFBFF" } },
-          h("h3", { className: "display-font", style: { fontSize: 20, textTransform: "uppercase", margin: "0 0 8px", color: "#241D33" } },
+        !result && ready && state.nights.length === 0 && state.matchbox.length === 0 && h("p", { style: { fontSize: 14, padding: "12px 16px", borderRadius: 12, background: "var(--surface)", border: "1px solid var(--border)", color: "var(--muted)" } }, "Noch keine Matching Night oder Matchbox-Eintrag vorhanden."),
+        result && !result.error && result.matrix.length === state.groupA.length && (result.matrix[0] || []).length === state.groupB.length && h("div", { className: "fade-in", style: { borderRadius: 16, border: "1.5px solid var(--blue)", padding: 16, background: "var(--surface-tint)" } },
+          h("h3", { className: "display-font", style: { fontSize: 20, textTransform: "uppercase", margin: "0 0 8px", color: "var(--ink)" } },
             result.solutionCount.toLocaleString("de-DE"), " mögliche Kombination", result.solutionCount === 1 ? "" : "en"
           ),
-          h("p", { style: { fontSize: 12, marginBottom: 12, color: "#726B85" } },
+          h("p", { style: { fontSize: 12, marginBottom: 12, color: "var(--muted)" } },
             "Erfüllen alle eingetragenen Nächte & Matchbox-Ergebnisse.",
-            result.doubleMatchActive && h("span", { style: { color: "#E0227A" } }, " Doppel-Match-Twist aktiv für ", (state.doubleMatchIds || []).map(id => nameOf(id)).join(", "), "."),
-            result.solutionCount === 1 && h("span", { style: { color: "#E0227A" } }, " Eindeutige Lösung gefunden!"),
-            result.solutionCount === 1 && uniqueSinceNight && h("span", { className: "block", style: { marginTop: 4, color: "#3F9142", fontWeight: 500 } }, "✓ Rechnerisch bereits eindeutig seit ", uniqueSinceNight, "."),
-            result.solutionCount === 1 && uniqueSinceComputing && !uniqueSinceNight && h("span", { className: "block", style: { marginTop: 4, color: "#948C9E" } }, "Prüfe, seit welcher Nacht die Lösung eindeutig war …")
+            result.doubleMatchActive && h("span", { style: { color: "var(--pink)" } }, " Doppel-Match-Twist aktiv für ", (state.doubleMatchIds || []).map(id => nameOf(id)).join(", "), "."),
+            result.solutionCount === 1 && h("span", { style: { color: "var(--pink)" } }, " Eindeutige Lösung gefunden!"),
+            result.solutionCount === 1 && uniqueSinceNight && h("span", { className: "block", style: { marginTop: 4, color: "var(--green)", fontWeight: 500 } }, "✓ Rechnerisch bereits eindeutig seit ", uniqueSinceNight, "."),
+            result.solutionCount === 1 && uniqueSinceComputing && !uniqueSinceNight && h("span", { className: "block", style: { marginTop: 4, color: "var(--faint)" } }, "Prüfe, seit welcher Nacht die Lösung eindeutig war …")
           ),
-          h("div", { style: { overflowX: "auto", overflowY: "auto", maxHeight: "60vh", borderRadius: 12, border: "1px solid #E7E1F0" } },
+          h("div", { style: { overflowX: "auto", overflowY: "auto", maxHeight: "60vh", borderRadius: 12, border: "1px solid var(--border)" } },
             h("table", { style: { width: "100%", fontSize: 13, borderCollapse: "collapse" } },
               h("thead", null, h("tr", null,
-                h("th", { style: { padding: 8, background: "#F7F5FC", position: "sticky", top: 0, left: 0, zIndex: 3 } }),
-                state.groupB.map(b => h("th", { key: b.id, style: { padding: 8, textAlign: "center", fontWeight: 500, background: "#F7F5FC", color: "#584F6E", minWidth: 64, position: "sticky", top: 0, zIndex: 2 } },
+                h("th", { style: { padding: 8, background: "var(--surface)", position: "sticky", top: 0, left: 0, zIndex: 3 } }),
+                state.groupB.map(b => h("th", { key: b.id, style: { padding: 8, textAlign: "center", fontWeight: 500, background: "var(--surface)", color: "var(--ink-soft)", minWidth: 64, position: "sticky", top: 0, zIndex: 2 } },
                   h("div", { style: { display: "flex", flexDirection: "column", alignItems: "center", gap: 4 } },
                     h(Avatar, { name: b.name, photo: b.photo, size: 26 }),
                     h("span", { style: { maxWidth: 60, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" } }, b.name)
@@ -785,7 +806,7 @@ function App() {
                 ))
               )),
               h("tbody", null, state.groupA.map((a, i) => h("tr", { key: a.id },
-                h("td", { style: { padding: 8, background: "#F7F5FC", color: "#584F6E", position: "sticky", left: 0, zIndex: 1 } },
+                h("td", { style: { padding: 8, background: "var(--surface)", color: "var(--ink-soft)", position: "sticky", left: 0, zIndex: 1 } },
                   h("div", { style: { display: "flex", alignItems: "center", gap: 8 } },
                     h(Avatar, { name: a.name, photo: a.photo, size: 26 }),
                     h("span", { style: { maxWidth: 80, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" } }, a.name)
@@ -800,17 +821,24 @@ function App() {
                       className: "mono-font",
                       style: {
                         borderRadius: 8, padding: "8px 0", fontWeight: 600,
-                        background: p === 0 ? "#F1EEF7" : `rgba(224,34,122,${0.10 + p * 0.55})`,
-                        color: p === 1 ? "#0E0A12" : p === 0 ? "#8A8298" : "#241D33",
-                        border: isMax && p < 1 ? "1px solid #F2B705" : p === 1 ? "1px solid #E0227A" : "1px solid transparent"
+                        background: p === 0 ? "var(--surface-strong)" : `rgba(224,34,122,${0.10 + p * 0.55})`,
+                        color: p === 1 ? "var(--ink)" : p === 0 ? "var(--faint)" : "var(--ink)",
+                        border: isMax && p < 1 ? "1px solid var(--gold)" : p === 1 ? "1px solid var(--pink)" : "1px solid transparent"
                       }
-                    }, p === 1 ? h(Icon, { name: "heart", size: 13, fill: "#0E0A12" }) : `${pct}%`)
+                    }, p === 1 ? h(Icon, { name: "heart", size: 13, fill: "#2B241C" }) : `${pct}%`)
                   );
                 })
               )))
             )
           )
         )
+      )
+    ),
+
+    h("footer", { style: { borderTop: "1px solid var(--border)", marginTop: 8 } },
+      h("div", { style: { maxWidth: 1100, margin: "0 auto", padding: "24px 20px 40px", display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "space-between", gap: 12 } },
+        h("span", { className: "display-font", style: { fontSize: 13, letterSpacing: "0.03em", color: "var(--ink-soft)" } }, "ARE YOU THE ONE?"),
+        h("span", { style: { fontSize: 12, color: "var(--faint)" } }, "Fan-Rechner · Perfect-Match-Wahrscheinlichkeiten")
       )
     )
   );
