@@ -13,7 +13,7 @@
 <meta name="apple-mobile-web-app-title" content="AYTO-Germany-Calculator">
 <script>
   (function () {
-    var CURRENT_BUILD = "2026-08-31-v9-light-restored-smooth-avatar";
+    var CURRENT_BUILD = "2026-08-31-v10-hero-result-emphasis";
     var checking = false;
     function checkForUpdate() {
       if (checking) return;
@@ -564,10 +564,10 @@ function App() {
         ),
         h("div", { style: { marginBottom: 12, transform: "rotate(-1.5deg)", transformOrigin: "left center" } },
           !logoError
-            ? h("img", { src: "logo.png", alt: "Are You The One?", onError: () => setLogoError(true), style: { height: 64, display: "block" } })
+            ? h("img", { src: "logo.png", alt: "Are You The One?", onError: () => setLogoError(true), style: { height: 76, display: "block" } })
             : h("div", { style: { display: "inline-block" } },
-                h("div", { className: "display-font", style: { textTransform: "uppercase", background: "#14ABE0", color: "#fff", padding: "6px 20px", fontSize: 26, letterSpacing: "0.02em" } }, "Are You"),
-                h("div", { className: "display-font", style: { textTransform: "uppercase", background: "#E0227A", color: "#fff", padding: "6px 20px", fontSize: 26, letterSpacing: "0.02em", marginTop: -4, marginLeft: 14 } }, "The One?")
+                h("div", { className: "display-font", style: { textTransform: "uppercase", background: "#14ABE0", color: "#fff", padding: "6px 20px", fontSize: 34, lineHeight: 0.95, letterSpacing: "0.02em" } }, "Are You"),
+                h("div", { className: "display-font", style: { textTransform: "uppercase", background: "#E0227A", color: "#fff", padding: "6px 20px", fontSize: 34, lineHeight: 0.95, letterSpacing: "0.02em", marginTop: -2, marginLeft: 10 } }, "The One?")
               )
         ),
         h("p", { style: { marginTop: 4, fontSize: 14, color: "#584F6E" } },
@@ -762,10 +762,12 @@ function App() {
         }, "Vorausberechnung"),
         result && result.error && h("p", { style: { fontSize: 14, padding: "12px 16px", borderRadius: 12, background: "rgba(200,30,58,0.1)", border: "1px solid rgba(200,30,58,0.35)", color: "#D6336C" } }, result.error),
         !result && ready && state.nights.length === 0 && state.matchbox.length === 0 && h("p", { style: { fontSize: 14, padding: "12px 16px", borderRadius: 12, background: "#F7F5FC", border: "1px solid #E7E1F0", color: "#726B85" } }, "Noch keine Matching Night oder Matchbox-Eintrag vorhanden."),
-        result && !result.error && result.matrix.length === state.groupA.length && (result.matrix[0] || []).length === state.groupB.length && h("div", { className: "fade-in" },
+        result && !result.error && result.matrix.length === state.groupA.length && (result.matrix[0] || []).length === state.groupB.length && h("div", { className: "fade-in", style: { borderRadius: 16, border: "1.5px solid #14ABE0", padding: 16, background: "#FAFBFF" } },
+          h("h3", { className: "display-font", style: { fontSize: 20, textTransform: "uppercase", margin: "0 0 8px", color: "#241D33" } },
+            result.solutionCount.toLocaleString("de-DE"), " mögliche Kombination", result.solutionCount === 1 ? "" : "en"
+          ),
           h("p", { style: { fontSize: 12, marginBottom: 12, color: "#726B85" } },
-            h("span", { className: "mono-font", style: { color: "#F2B705" } }, result.solutionCount.toLocaleString("de-DE")),
-            " mögliche Kombination", result.solutionCount === 1 ? "" : "en", " erfüllen alle eingetragenen Nächte & Matchbox-Ergebnisse.",
+            "Erfüllen alle eingetragenen Nächte & Matchbox-Ergebnisse.",
             result.doubleMatchActive && h("span", { style: { color: "#E0227A" } }, " Doppel-Match-Twist aktiv für ", (state.doubleMatchIds || []).map(id => nameOf(id)).join(", "), "."),
             result.solutionCount === 1 && h("span", { style: { color: "#E0227A" } }, " Eindeutige Lösung gefunden!"),
             result.solutionCount === 1 && uniqueSinceNight && h("span", { className: "block", style: { marginTop: 4, color: "#3F9142", fontWeight: 500 } }, "✓ Rechnerisch bereits eindeutig seit ", uniqueSinceNight, "."),
