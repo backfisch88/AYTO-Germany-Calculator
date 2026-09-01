@@ -212,6 +212,25 @@
       },
       "lights": 3,
       "extraPartner": null
+    },
+    {
+      "id": "f8eukz0o",
+      "label": "Nacht 3",
+      "remoteNummer": 3,
+      "pairs": {
+        "ku3af3fh": "p5bw192g",
+        "l6j7eocm": "owla8yoh",
+        "k9tqp0wg": "2vrvvykg",
+        "fpfhuj6p": "63h7xne2",
+        "spsziudl": "lno9tk0d",
+        "n53pcg2g": "f3jluwu5",
+        "t9d67pqd": "9xpdx6fc",
+        "l582fofj": "3ver6sn9",
+        "4n9f4vnc": "jertffgl",
+        "7ap26cch": "ouwqw0ia"
+      },
+      "lights": 4,
+      "extraPartner": null
     }
   ],
   "matchbox": [
@@ -260,5 +279,5 @@
     "episode": "",
     "editingId": null
   },
-  "_pushedAt": "2026-09-01T22:36:22Z"
+  "_pushedAt": "2026-09-01T23:36:28Z"
 }
