@@ -149,7 +149,7 @@
       "gruppe": "B",
       "name": "Caroline",
       "foto": "cast/2022/caroline.jpg",
-      "notiz": "21, Straubing, Schichtleiterin Einzelhandel, Alternativ-Match-Hinweis: 23",
+      "notiz": "21, Straubing, Schichtleiterin Einzelhandel, Alternativ-Match-Hinweis: {'id': 23, 'status': 'published', 'sort': None, 'user_created': '7056248b-3ffa-487a-ae46-3cff602abf2f', 'date_created': '2025-05-18T15:53:19.000Z', 'user_updated': '7056248b-3ffa-487a-ae46-3cff602abf2f', 'date_updated': '2025-05-18T15:53:24.000Z', 'name': 'Max', 'alter': 28, 'staffel': 9, 'instagram': 'https://www.instagram.com/max_stiennon/', 'bekannt_aus': None, 'wohnort': 'Arnsberg', 'beruf': 'Berufskraftfahrer', 'zitat': None, 'single_seit': None, 'bild': '46d05006-2fc1-4a35-acde-20941084f898', 'geschlecht': 'mann', 'url': 'max', 'alternativ_match': None, 'vorherige_teilnahme': []}",
       "zitat": "",
       "instagram": "https://www.instagram.com/carlielybra/"
     },

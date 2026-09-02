@@ -13,7 +13,7 @@
       "gruppe": "A",
       "name": "Tim",
       "foto": "cast/2024-vip/tim.webp",
-      "notiz": "27, Stuttgart, Personaltrainer, bekannt aus: Prominent getrennt (2024), Kampf der Realitystars (2020), Love Island (2020), Alternativ-Match-Hinweis: 92",
+      "notiz": "27, Stuttgart, Personaltrainer, bekannt aus: Prominent getrennt (2024), Kampf der Realitystars (2020), Love Island (2020), Alternativ-Match-Hinweis: {'id': 92, 'status': 'published', 'sort': None, 'user_created': '7056248b-3ffa-487a-ae46-3cff602abf2f', 'date_created': '2025-08-10T15:45:30.000Z', 'user_updated': '7056248b-3ffa-487a-ae46-3cff602abf2f', 'date_updated': '2025-08-11T18:06:16.000Z', 'name': 'Dana', 'alter': 28, 'staffel': 3, 'instagram': 'https://www.instagram.com/missfeist/', 'bekannt_aus': [{'jahr': 2023, 'name': 'Sommerhaus der Stars'}, {'jahr': 2022, 'name': 'Are you the one?'}, {'jahr': 2019, 'name': 'Love Island'}], 'wohnort': 'Oldenburg', 'beruf': 'Influenerin', 'zitat': 'Ich bin Wifey Material. Ich kann für meinen Mann sorgen und wenn ich liebe, bin ich die treuste Seele überhaupt.', 'single_seit': 2023, 'bild': '0867893a-b79d-4b3a-898f-96986095fb31', 'geschlecht': 'frau', 'url': 'dana', 'alternativ_match': 107, 'vorherige_teilnahme': []}",
       "zitat": "Meine Mama hat mir das Go für den Boom Boom Room gegeben.",
       "instagram": "https://www.instagram.com/timkuehnel/"
     },
@@ -133,7 +133,7 @@
       "gruppe": "B",
       "name": "Dana",
       "foto": "cast/2024-vip/dana.webp",
-      "notiz": "28, Oldenburg, Influenerin, bekannt aus: Sommerhaus der Stars (2023), Are you the one? (2022), Love Island (2019), Alternativ-Match-Hinweis: 107",
+      "notiz": "28, Oldenburg, Influenerin, bekannt aus: Sommerhaus der Stars (2023), Are you the one? (2022), Love Island (2019), Alternativ-Match-Hinweis: {'id': 107, 'status': 'published', 'sort': None, 'user_created': '7056248b-3ffa-487a-ae46-3cff602abf2f', 'date_created': '2025-08-10T16:08:04.000Z', 'user_updated': '7056248b-3ffa-487a-ae46-3cff602abf2f', 'date_updated': '2025-08-11T18:07:41.000Z', 'name': 'Tim', 'alter': 27, 'staffel': 3, 'instagram': 'https://www.instagram.com/timkuehnel/', 'bekannt_aus': [{'jahr': 2024, 'name': 'Prominent getrennt'}, {'jahr': 2020, 'name': 'Kampf der Realitystars'}, {'jahr': 2020, 'name': 'Love Island'}], 'wohnort': 'Stuttgart', 'beruf': 'Personaltrainer', 'zitat': 'Meine Mama hat mir das Go für den Boom Boom Room gegeben.', 'single_seit': None, 'bild': 'c6681492-c851-4eb7-9f9b-dc00d41ec21d', 'geschlecht': 'mann', 'url': 'tim', 'alternativ_match': 92, 'vorherige_teilnahme': []}",
       "zitat": "Ich bin Wifey Material. Ich kann für meinen Mann sorgen und wenn ich liebe, bin ich die treuste Seele überhaupt.",
       "instagram": "https://www.instagram.com/missfeist/"
     },

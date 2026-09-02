@@ -85,7 +85,7 @@
       "gruppe": "B",
       "name": "Joanna",
       "foto": "cast/2025-vip/joanna.webp",
-      "notiz": "27, Stuttgart, Verkäuferin, bekannt aus: Are you the One? (2025), Alternativ-Match-Hinweis: 113",
+      "notiz": "27, Stuttgart, Verkäuferin, bekannt aus: Are you the One? (2025), Alternativ-Match-Hinweis: {'id': 113, 'status': 'published', 'sort': None, 'user_created': '7056248b-3ffa-487a-ae46-3cff602abf2f', 'date_created': '2025-08-10T17:36:24.000Z', 'user_updated': '7056248b-3ffa-487a-ae46-3cff602abf2f', 'date_updated': '2025-08-11T17:28:17.000Z', 'name': 'Jonny', 'alter': 32, 'staffel': 10, 'instagram': 'https://www.instagram.com/jonnyjaspers/', 'bekannt_aus': [{'jahr': 2025, 'name': 'Prominent getrennt'}, {'jahr': 2023, 'name': 'Ex on the Beach'}, {'jahr': 2022, 'name': 'Temptation Island'}], 'wohnort': 'Wuppertal', 'beruf': 'Selbständiger Gastronom', 'zitat': 'Mit Eifersucht habe ich Null Probleme.', 'single_seit': None, 'bild': 'a2a5475e-7e5c-4b0e-bd1a-8a9be43dcb6d', 'geschlecht': 'mann', 'url': 'jonny', 'alternativ_match': None, 'vorherige_teilnahme': []}",
       "zitat": "Ich passe auf, wen ich in mein Herz reinlasse.",
       "instagram": "https://www.instagram.com/joanna.majolie/"
     },
