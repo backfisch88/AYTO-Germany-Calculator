@@ -191,7 +191,7 @@
         "spsziudl": "9xpdx6fc",
         "n53pcg2g": "jertffgl"
       },
-      "lights": 4,
+      "lights": 3,
       "extraPartner": null
     },
     {
@@ -214,7 +214,7 @@
       "extraPartner": null
     },
     {
-      "id": "f8eukz0o",
+      "id": "364swx3q",
       "label": "Nacht 3",
       "remoteNummer": 3,
       "pairs": {
@@ -229,7 +229,7 @@
         "4n9f4vnc": "jertffgl",
         "7ap26cch": "ouwqw0ia"
       },
-      "lights": 4,
+      "lights": 3,
       "extraPartner": null
     }
   ],
@@ -287,5 +287,5 @@
     "episode": "",
     "editingId": null
   },
-  "_pushedAt": "2026-09-02T18:42:25Z"
+  "_pushedAt": "2026-09-02T18:57:09Z"
 }
