@@ -265,14 +265,6 @@
       "isMatch": true,
       "verkauft": false,
       "episode": "4"
-    },
-    {
-      "id": "cbqf27qc",
-      "aId": "7ap26cch",
-      "bId": "wiu1lqcl",
-      "isMatch": true,
-      "verkauft": false,
-      "episode": "4"
     }
   ],
   "doubleMatchIds": [
@@ -287,5 +279,5 @@
     "episode": "",
     "editingId": null
   },
-  "_pushedAt": "2026-09-02T09:34:54Z"
+  "_pushedAt": "2026-09-02T09:53:17Z"
 }
