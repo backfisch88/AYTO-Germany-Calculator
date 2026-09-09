@@ -13,7 +13,7 @@
 <meta name="apple-mobile-web-app-title" content="AYTO-Germany-Calculator">
 <script>
   (function () {
-    var CURRENT_BUILD = "2026-08-31-v11-verkauft-not-a-constraint";
+    var CURRENT_BUILD = "2026-08-31-v12-double-match-excess-side";
     var checking = false;
     function checkForUpdate() {
       if (checking) return;
@@ -162,9 +162,19 @@ function solve(state) {
     return { error: `${state.groupAName} (${totalA} Matches insgesamt) und ${state.groupBName} (${totalB}) sind zu unausgeglichen.` };
   }
   const excessIsA = netExcess > 0;
-  const excessDoubleCount = netExcess === 0 ? 0 : (excessIsA ? A : B).filter(p => doubleIds.has(p.id)).length;
-  if (netExcess !== 0 && excessDoubleCount > 0) {
-    return { error: `Doppel-Match-Twist auf der Seite mit Überschuss wird nicht unterstützt, solange dort noch ein Überschuss bleibt.` };
+  const excessSideDoubles = netExcess === 0 ? [] : (excessIsA ? A : B).filter(p => doubleIds.has(p.id));
+  if (netExcess !== 0 && excessSideDoubles.length > 0) {
+    const confirmedCount = {};
+    state.matchbox.forEach(tb => {
+      if (tb.isMatch) {
+        confirmedCount[tb.aId] = (confirmedCount[tb.aId] || 0) + 1;
+        confirmedCount[tb.bId] = (confirmedCount[tb.bId] || 0) + 1;
+      }
+    });
+    const unconfirmed = excessSideDoubles.filter(p => (confirmedCount[p.id] || 0) < 2);
+    if (unconfirmed.length > 0) {
+      return { error: `Doppel-Match-Twist auf der Seite mit Überschuss für ${unconfirmed.map(p => p.name).join(", ")} wird nicht unterstützt, solange nicht beide Partner schon über Matchbox-Einträge bestätigt sind.` };
+    }
   }
   const iterIsA = netExcess < 0;
   const iterGroup = iterIsA ? A : B;
