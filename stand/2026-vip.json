@@ -84,6 +84,14 @@
       "notiz": "26, München, Foto- und Videograf, bekannt aus: Temptation Island VIP (2025), La Villa des Coeurs brisé (2025), Die Bachelorette (2024)",
       "zitat": "Social Media ist mir sehr, sehr wichtig.",
       "instagram": "https://www.instagram.com/briangmn"
+    },
+    {
+      "id": "pa2x5jw3",
+      "name": "Laurenz",
+      "photo": "cast/2026-vip/laurenz.webp",
+      "notiz": "25, Köln, Influencer, bekannt aus: Most Wanted (2026), Ex on the Beach (2026), Too hot to Handle (2025) u.a.",
+      "zitat": "",
+      "instagram": "https://www.instagram.com/laurenz.pesch/"
     }
   ],
   "groupB": [
@@ -231,6 +239,25 @@
       },
       "lights": 3,
       "extraPartner": null
+    },
+    {
+      "id": "iwvl04p3",
+      "label": "Nacht 4",
+      "remoteNummer": 4,
+      "pairs": {
+        "fpfhuj6p": "9xpdx6fc",
+        "spsziudl": "f3jluwu5",
+        "n53pcg2g": "owla8yoh",
+        "ku3af3fh": "jertffgl",
+        "l6j7eocm": "3ver6sn9",
+        "t9d67pqd": "lno9tk0d",
+        "l582fofj": "63h7xne2",
+        "k9tqp0wg": "p5bw192g",
+        "4n9f4vnc": "2vrvvykg",
+        "7ap26cch": "ouwqw0ia"
+      },
+      "lights": 4,
+      "extraPartner": null
     }
   ],
   "matchbox": [
@@ -295,5 +322,5 @@
     "episode": "",
     "editingId": null
   },
-  "_pushedAt": "2026-09-09T05:21:47Z"
+  "_pushedAt": "2026-09-09T06:21:54Z"
 }
