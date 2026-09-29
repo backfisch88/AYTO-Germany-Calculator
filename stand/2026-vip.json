@@ -296,6 +296,25 @@
       },
       "lights": 5,
       "extraPartner": null
+    },
+    {
+      "id": "4qciqbt6",
+      "label": "Nacht 7",
+      "remoteNummer": 7,
+      "pairs": {
+        "pa2x5jw3": "63h7xne2",
+        "4n9f4vnc": "9xpdx6fc",
+        "fpfhuj6p": "p5bw192g",
+        "l6j7eocm": "3ver6sn9",
+        "k9tqp0wg": "f3jluwu5",
+        "n53pcg2g": "owla8yoh",
+        "l582fofj": "jertffgl",
+        "ku3af3fh": "2vrvvykg",
+        "7ap26cch": "ouwqw0ia",
+        "t9d67pqd": "lno9tk0d"
+      },
+      "lights": 5,
+      "extraPartner": null
     }
   ],
   "matchbox": [
@@ -362,6 +381,14 @@
       "isMatch": false,
       "verkauft": false,
       "episode": "7"
+    },
+    {
+      "id": "x3n5dep1",
+      "aId": "t9d67pqd",
+      "bId": "lno9tk0d",
+      "isMatch": true,
+      "verkauft": false,
+      "episode": "8"
     }
   ],
   "doubleMatchIds": [
@@ -376,5 +403,5 @@
     "episode": "",
     "editingId": null
   },
-  "_pushedAt": "2026-09-29T08:43:48Z"
+  "_pushedAt": "2026-09-29T23:18:31Z"
 }
