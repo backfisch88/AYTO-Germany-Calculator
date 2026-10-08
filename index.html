@@ -13,7 +13,7 @@
 <meta name="apple-mobile-web-app-title" content="AYTO-Germany-Calculator">
 <script>
   (function () {
-    var CURRENT_BUILD = "2026-08-31-v12-double-match-excess-side";
+    var CURRENT_BUILD = "2026-10-08-v13-double-match-fallback-notiz-fix";
     var checking = false;
     function checkForUpdate() {
       if (checking) return;
@@ -304,6 +304,62 @@ function solve(state) {
   return { matrix, solutionCount, doubleMatchActive: doubleIds.size > 0 };
 }
 
+const NO_SOLUTION_ERROR = "Keine Kombination erfüllt alle eingetragenen Nächte und Matchbox-Ergebnisse gleichzeitig.";
+
+// Wird nur aufgerufen, wenn solve() mit NO_SOLUTION_ERROR scheitert. Prüft, ob ein zweites
+// Doppel-Match-Twist-Mitglied auf der Seite mit dem Match-Defizit den Widerspruch auflöst,
+// und gibt alle so gefundenen Kandidat:innen zurück, gewichtet umgekehrt proportional zu
+// ihrer jeweiligen Lösungsanzahl.
+function findDoubleMatchCandidates(state) {
+  const A = state.groupA, B = state.groupB;
+  const doubleIds = new Set(state.doubleMatchIds || []);
+  const totalA = A.reduce((s, p) => s + (doubleIds.has(p.id) ? 2 : 1), 0);
+  const totalB = B.reduce((s, p) => s + (doubleIds.has(p.id) ? 2 : 1), 0);
+  const netExcess = totalA - totalB;
+  if (netExcess === 0) return [];
+  const deficitGroup = netExcess > 0 ? B : A;
+  const found = [];
+  deficitGroup.forEach(person => {
+    if (doubleIds.has(person.id)) return;
+    const candidateState = { ...state, doubleMatchIds: [...(state.doubleMatchIds || []), person.id] };
+    const r = solve(candidateState);
+    if (r && !r.error) {
+      found.push({ id: person.id, name: person.name, solutionCount: r.solutionCount, matrix: r.matrix });
+    }
+  });
+  if (found.length === 0) return [];
+  const totalWeight = found.reduce((s, c) => s + 1 / c.solutionCount, 0);
+  found.forEach(c => { c.probability = (1 / c.solutionCount) / totalWeight; });
+  found.sort((a, b) => b.probability - a.probability);
+  return found;
+}
+
+// Liefert bei einem Widerspruch, der durch ein fehlendes zweites Doppel-Match erklärt wird,
+// eine gewichtete Näherung statt eines reinen Fehlers zurück.
+function solveWithFallback(state) {
+  const result = solve(state);
+  if (!result || result.error !== NO_SOLUTION_ERROR) return result;
+  const candidates = findDoubleMatchCandidates(state);
+  if (candidates.length === 0) return result;
+  const nA = state.groupA.length, nB = state.groupB.length;
+  const combinedMatrix = Array.from({ length: nA }, () => new Array(nB).fill(0));
+  candidates.forEach(c => {
+    for (let i = 0; i < nA; i++) {
+      for (let j = 0; j < nB; j++) {
+        combinedMatrix[i][j] += c.probability * c.matrix[i][j];
+      }
+    }
+  });
+  return {
+    matrix: combinedMatrix,
+    solutionCount: candidates.reduce((s, c) => s + c.solutionCount, 0),
+    doubleMatchActive: true,
+    isFallback: true,
+    fallbackError: result.error,
+    doubleMatchCandidates: candidates.map(c => ({ id: c.id, name: c.name, probability: c.probability, solutionCount: c.solutionCount }))
+  };
+}
+
 // ---------- UI-Bausteine ----------
 
 function Avatar({ name, photo, size = 44, ring }) {
@@ -443,7 +499,7 @@ function App() {
     }
     setComputing(true);
     const t = setTimeout(() => {
-      setResult(solve(state));
+      setResult(solveWithFallback(state));
       setComputing(false);
     }, 30);
     return () => clearTimeout(t);
@@ -457,7 +513,7 @@ function App() {
   const [uniqueSinceNight, setUniqueSinceNight] = useState(null);
   const [uniqueSinceComputing, setUniqueSinceComputing] = useState(false);
   useEffect(() => {
-    if (!state || !result || result.solutionCount !== 1) {
+    if (!state || !result || result.solutionCount !== 1 || result.isFallback) {
       setUniqueSinceNight(null);
       return;
     }
@@ -775,14 +831,15 @@ function App() {
         !result && ready && state.nights.length === 0 && state.matchbox.length === 0 && h("p", { style: { fontSize: 14, padding: "12px 16px", borderRadius: 12, background: "#F7F5FC", border: "1px solid #E7E1F0", color: "#726B85" } }, "Noch keine Matching Night oder Matchbox-Eintrag vorhanden."),
         result && !result.error && result.matrix.length === state.groupA.length && (result.matrix[0] || []).length === state.groupB.length && h("div", { className: "fade-in", style: { borderRadius: 16, border: "1.5px solid #14ABE0", padding: 16, background: "#FAFBFF" } },
           h("h3", { className: "display-font", style: { fontSize: 20, textTransform: "uppercase", margin: "0 0 8px", color: "#241D33" } },
-            result.solutionCount.toLocaleString("de-DE"), " mögliche Kombination", result.solutionCount === 1 ? "" : "en"
+            result.isFallback ? "⚠️ Näherung (kein eindeutiges Ergebnis)" : [result.solutionCount.toLocaleString("de-DE"), " mögliche Kombination", result.solutionCount === 1 ? "" : "en"]
           ),
           h("p", { style: { fontSize: 12, marginBottom: 12, color: "#726B85" } },
-            "Erfüllen alle eingetragenen Nächte & Matchbox-Ergebnisse.",
-            result.doubleMatchActive && h("span", { style: { color: "#E0227A" } }, " Doppel-Match-Twist aktiv für ", (state.doubleMatchIds || []).map(id => nameOf(id)).join(", "), "."),
-            result.solutionCount === 1 && h("span", { style: { color: "#E0227A" } }, " Eindeutige Lösung gefunden!"),
-            result.solutionCount === 1 && uniqueSinceNight && h("span", { className: "block", style: { marginTop: 4, color: "#3F9142", fontWeight: 500 } }, "✓ Rechnerisch bereits eindeutig seit ", uniqueSinceNight, "."),
-            result.solutionCount === 1 && uniqueSinceComputing && !uniqueSinceNight && h("span", { className: "block", style: { marginTop: 4, color: "#948C9E" } }, "Prüfe, seit welcher Nacht die Lösung eindeutig war …")
+            result.isFallback ? "Keine Kombination erfüllt bisher ALLE Eingaben gleichzeitig." : "Erfüllen alle eingetragenen Nächte & Matchbox-Ergebnisse.",
+            result.isFallback && h("span", { className: "block", style: { marginTop: 4, color: "#D6336C", fontWeight: 500 } }, "Vermutlich fehlt ein zweites Doppel-Match. Mögliche:r Kandidat:in: ", result.doubleMatchCandidates.map(c => `${c.name} (${Math.round(c.probability * 100)}%)`).join(", "), ". Die Tabelle unten kombiniert alle gefundenen Möglichkeiten gewichtet - zur Kontrolle, nicht als endgültiges Ergebnis."),
+            result.doubleMatchActive && !result.isFallback && h("span", { style: { color: "#E0227A" } }, " Doppel-Match-Twist aktiv für ", (state.doubleMatchIds || []).map(id => nameOf(id)).join(", "), "."),
+            result.solutionCount === 1 && !result.isFallback && h("span", { style: { color: "#E0227A" } }, " Eindeutige Lösung gefunden!"),
+            result.solutionCount === 1 && !result.isFallback && uniqueSinceNight && h("span", { className: "block", style: { marginTop: 4, color: "#3F9142", fontWeight: 500 } }, "✓ Rechnerisch bereits eindeutig seit ", uniqueSinceNight, "."),
+            result.solutionCount === 1 && !result.isFallback && uniqueSinceComputing && !uniqueSinceNight && h("span", { className: "block", style: { marginTop: 4, color: "#948C9E" } }, "Prüfe, seit welcher Nacht die Lösung eindeutig war …")
           ),
           h("div", { style: { overflowX: "auto", overflowY: "auto", maxHeight: "60vh", borderRadius: 12, border: "1px solid #E7E1F0" } },
             h("table", { style: { width: "100%", fontSize: 13, borderCollapse: "collapse" } },
