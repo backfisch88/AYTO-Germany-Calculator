@@ -315,6 +315,25 @@
       },
       "lights": 5,
       "extraPartner": null
+    },
+    {
+      "id": "vg4mikhg",
+      "label": "Nacht 8",
+      "remoteNummer": 8,
+      "pairs": {
+        "ku3af3fh": "jertffgl",
+        "l6j7eocm": "3ver6sn9",
+        "spsziudl": "9xpdx6fc",
+        "n53pcg2g": "owla8yoh",
+        "4n9f4vnc": "f3jluwu5",
+        "fpfhuj6p": "p5bw192g",
+        "pa2x5jw3": "63h7xne2",
+        "k9tqp0wg": "2vrvvykg",
+        "7ap26cch": "ouwqw0ia",
+        "t9d67pqd": "lno9tk0d"
+      },
+      "lights": 6,
+      "extraPartner": null
     }
   ],
   "matchbox": [
@@ -411,5 +430,5 @@
     "episode": "",
     "editingId": null
   },
-  "_pushedAt": "2026-10-08T08:44:10Z"
+  "_pushedAt": "2026-10-08T08:44:41Z"
 }
